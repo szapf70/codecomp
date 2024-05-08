@@ -2,13 +2,98 @@
 # Ten-Pin Bowling
 # Score erklärt - https://www.youtube.com/watch?v=aBe71sD8o8c
 
+def nextBalls(frList,n,i):
+    lScore = 0
+    #frame 0-8
+    if i < 9:
+        # Only next Ball
+        if n == 1:
+            if len(frList[i]) == 1:
+                lScore += 10
+            else:
+                lScore += int(frList[i][0])
+        # Next 2 Balls
+        else:
+            if len(frList[i]) == 1:
+                lScore += 10
+                lScore += nextBalls(frList,1,i+1)
+            else:
+                if frList[i][1] == '/':
+                    lScore += 10
+                else:
+                    lScore += int(frList[i][0]) + int(frList[i][1])        
+       
+        return lScore        
+    #frame 9
+    else:
+        if n == 1:
+            if frList[i][0] == 'X':
+                lScore += 10
+            else:
+                lScore += int(frList[i][0])
+        else:
+            if frList[i][0] == 'X':
+                lScore += 10
+                if frList[i][1] == 'X':
+                    lScore += 10
+                else:
+                    lScore += int(frList[i][1])
+            else:
+                if frList[i][1] == '/':
+                    lScore += 10
+                else:
+                    lScore += int(frList[i][0]) + int(frList[i][1])                    
+        return lScore
+
+
+def points(frList,i):
+    lScore = 0
+    # Frames 1-9
+    if i < 9:
+        if len(frList[i]) == 1:
+            lScore += 10 + nextBalls(frList,2,i+1)
+        else:
+            if frList[i][1] == '/':
+                lScore += 10 + nextBalls(frList,1,i+1)            
+            else:
+                lScore += int(frList[i][0]) + int(frList[i][1])
+        return lScore    
+    # Frame 10
+    else:
+        # Last Frame len == 2
+        if len(frList[i]) == 2:
+            lScore += int(frList[i][0]) + int(frList[i][1])
+        # Last Frame len == 3
+        else:
+            # Xn/
+            if frList[i][2] == '/':
+                lscore += 20
+            # n/n oder n/X
+            if frList[i][1] == '/':
+                if frList[i][2]== 'X':
+                    lScore += 20
+                else:
+                    lScore += 10 + int(frList[i][2])
+            # XXX or XXn
+            if frList[i][:2] == 'XX':
+                if frList[i] == 'XXX':
+                    lScore += 30
+                else:
+                    lScore += 20 + int(frList[i][2])    
+        return lScore
+        
 def bowling_score(frames):
-    pass
+    frList = frames.split()
+    allscore = 0
+    for i in range(len(frList)):
+        allscore += points(frList,i)    
+    return allscore
 
-
-
-
-
+#print(bowling_score('X X 9/ 80 X X 90 8/ 7/ 44'))
+#print(bowling_score('X 4/ 4/ 00'))
+print(bowling_score('11 11 11 11 11 11 11 11 11 11'))
+print(bowling_score('X X X X X X X X X XXX'))
+print(bowling_score('00 00 00 00 00 00 00 00 00 0/X'))
 
 """Beim Ten-Pin-Bowling rollt ein Spieler eine Bowlingkugel über eine Bahn, um Kegel umzuwerfen. Am Ende der 
 Bowlingbahn sind zehn Kegel angebracht. Jeder Spieler hat 10 Frames, um eine Bowlingkugel über eine Bahn zu 
