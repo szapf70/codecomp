@@ -58,7 +58,7 @@ class Array(object):
 
         i = 2
         while i <= len(self.arr):
-            print(self.arr[act['s']:act['e']+1])
+            print(self.arr[act['s']:act['e']+1],run)
             if i == len(self.arr):
                 if run:
                     if act['l'] > top['l']:
