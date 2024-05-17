@@ -1,4 +1,2 @@
-arr =  [[1,2],
-        [3,4]]
-
-print(arr[::-1])
+f = [{'1' : "Test"}, { '-2' : "Hallo"}, { '3' : "Sascha"}]
+print(sorted(f))
