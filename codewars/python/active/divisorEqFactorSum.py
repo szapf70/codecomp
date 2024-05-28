@@ -1,5 +1,5 @@
-# https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/python
-# Primes in numbers
+# https://www.codewars.com/kata/562c04fc8546d8147b000039/train/python
+# When The Sum of The Divisors Is A Multiple Of The Prime Factors Sum
 
 
 pt = [2]
@@ -22,7 +22,6 @@ def prime_factors(n):
     ns = n
     nt = int(n**0.5)+1
     fillPrimeTable(nt)
-    print(pt)
     fac = []
     pidx = 0
     while n > 1 and pidx < len(pt) and pt[pidx] <= nt :
@@ -35,23 +34,25 @@ def prime_factors(n):
         fac.append(ns)
     return fac
 
-print(prime_factors(201))
-#fillPrimeTable(20)
-#print(pt)
 
 
-"""
-Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
-        test.assert_equals(prime_factors(7775460), "(2**2)(3**3)(5)(7)(11**2)(17)")
-        test.assert_equals(prime_factors(7919), "(7919)")
-import re
+
+def ds_multof_pfs(nMin, nMax):
+    res = []
+    for n in range(nMin, nMax+1):
+        pf = prime_factors(n)
+        dv = {1,n}
+        pfs = set(pf)
+        dv.update(pf)
+        for lpfs in pfs:
+            for p in range(1,pf.count(lpfs)+1):
+                dv.add(n//(lpfs**p))    
+            if not sum(dv)%sum(pf):
+                print(n,pf,sum(pf),dv,sum(dv))
+                res.append(n)
+    return res   
 
 
-def isprime(n):
-    return re.compile(r'^1?$|^(11+)\1+$').match('1' * n) is None
-
-print [x for x in range(100) if isprime(x)]
-
-###########Output#############
-[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
-"""
+#print(prime_factors(12))
+print(ds_multof_pfs(10,100))
+#print(104%13)
