@@ -2,17 +2,45 @@
 # Give the status of the tennis game
 
 def get_status(wins):
-    states = ["0","15","30", "40", "DEU","ADV"]
-    b = 0
-    a = 0
+    game = {
+                'Bob' : { 'state' : "0",
+                          'opp' : game['Anna'])},
+                'Anna' : { 'state' : "0",
+                          'opp' : game.get('Bob')}
+    }
+    status = "Bob 0, Anna 0"
+    winner = None
+    
     for w in wins:
-        if w == 'Bob':
-            if b < 3: 
-                b += 1
-            else:
-                if
-
-        
+        if winner:
+            break
+        match game[w]['state']:
+            case "0":
+                game[w]['state'] = "15"        
+            case "15":
+                game[w]['state'] = "30"        
+            case "30":
+                game[w]['state'] = "40"  
+            case "40":
+                match game[w]['opp']['state']:
+                    case "0":
+                        winner = w
+                    case "15":
+                        winner = w
+                    case "30":
+                        winner = w
+                    case "40":
+                        game[w]['state'] = "DEU"
+                        game[w]['opp']['state'] = "DEU"
+            case "DEU":
+                match game[w]['opp']['state']:
+                    case "DEU":
+                        game[w]['state'] = "ADV"
+                    case "ADV":
+                        game[w]['opp']['state'] = "DEU"                
+            case "ADV":
+                winner = w              
+    print(game)    
 
 
 
