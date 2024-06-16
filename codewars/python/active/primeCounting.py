@@ -2,8 +2,10 @@
 # Prime counting
 
 from gmpy2 import next_prime
-from functools
-def
+from functools import cache
+
+prlkt = []
+
 
 def count_primes_less_than(n:int) -> int:
     res = 0
