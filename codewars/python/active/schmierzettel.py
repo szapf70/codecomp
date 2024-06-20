@@ -1,4 +1,11 @@
-n = 3
+n = 71
+s = 0
 
-
-print(n*(n+1)//2)
+while n > 1:
+    if n%2:
+        n-=1
+    else:
+        n/=2
+    s += 1
+    
+print(s)            
