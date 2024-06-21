@@ -28,6 +28,19 @@ class SZStat(basestat.BaseStat):
         Berechnet die Standardabweichung und gibt sie zurück.
         
     """
+    def addValue(self, value):
+        """
+        Fügt den übergebenen Wert der Datenliste hinzu.
+        
+        Parameter
+            Wert
+        
+        """    
+
+        self.data.append(value)
+
+
+
 
     def getMin(self):
         """

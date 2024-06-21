@@ -2,12 +2,16 @@ from abc import ABC, abstractmethod
 
 class BaseStat(ABC):
     """
-    Interface für Klassen zur Berechnung grundlegender statitischer Kennzahlen.
+    Interface für Klassen zur Berechnung grundlegender statistischer Kennzahlen.
+    Bis auf den Konstruktor und die Reportfunktion nur abstrakte Methoden
     Bei der Instanzierung wird festgelegt ob die Kennzahlen immer für die gesamten Daten
     oder nur für die letzten n Daten berechnet werden soll. Diese Eigenschaft kann zur Lebensdauer des
     Objekts nicht mehr geändert werden.
     
     Methoden
+    
+    addValue(value)
+        Fügt den übergebenen Wert der Datenliste des Objekts hinzu.
     
     getMin()
         Berechnet das Minimum und gibt es zurück.
@@ -57,6 +61,17 @@ class BaseStat(ABC):
             
         self.window = window
     
+    @abstractmethod
+    def addValue(self, value):
+        """
+        Fügt den übergebenen Wert der Datenliste hinzu.
+        
+        Parameter
+            Wert
+        
+        """    
+
+
     @abstractmethod
     def getMin(self):
         """
@@ -148,16 +163,42 @@ class BaseStat(ABC):
         """    
         pass
     
-    def getReport(self):
+    
+    def Desc(self):
+        """
+        Ruft alle statistischen Methioden der Klasse auf.
+        
+        Rückgabewert
+            Dictionary mit den statistischen Kennzahlen
+        
+        
+        """
+        return {"min" : self.getMin(),
+                "max" : self.getMax(),
+                "range" : self.getRange(),
+                "median" : self.getMedian(),
+                "mean" : self.getMean(),
+                "variance" : self.getVariance(),
+                "stddev" : self.getStdDev()}
+    
+    def Report(self):
+        """
+        Erstellt einen formatierten Bericht über die statistischen Kennzahlen
+        
+        Rückgabewert
+            Mehrzeiliger String
+                
+        """
+        
         rep = f"Report for {super().__str__()}\n"
-        rep += f"Minvalue: {self.getMin():>10}\n"
-        rep += f"Maxvalue: {self.getMax():>10}\n"
-        rep += f"Range:    {self.getRange():>10}\n"
+        d = self.Desc()
+        rep += f"Minvalue: {d['min']:>10}\n"
+        rep += f"Maxvalue: {d['max']:>10}\n"
+        rep += f"Range:    {d['range']:>10}\n"
 
-        rep += f"Median:   {self.getMedian():>10}\n"
-        rep += f"Mean:     {self.getMean():>10}\n"
-        rep += f"Variance: {round(self.getVariance(),3):>10}\n"
-        rep += f"StdDev:   {round(self.getStdDev(),3):>10}\n"
-
+        rep += f"Median:   {d['median']:>10}\n"
+        rep += f"Mean:     {d['mean']:>10}\n"
+        rep += f"Variance: {round(d['variance'],3):>10}\n"
+        rep += f"StdDev:   {round(d['stddev'],3):>10}\n"
         return rep
     
