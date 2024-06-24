@@ -192,13 +192,13 @@ class BaseStat(ABC):
         
         rep = f"Report for {super().__str__()}\n"
         d = self.Desc()
-        rep += f"Minvalue: {d['min']:>10}\n"
-        rep += f"Maxvalue: {d['max']:>10}\n"
-        rep += f"Range:    {d['range']:>10}\n"
-
-        rep += f"Median:   {d['median']:>10}\n"
-        rep += f"Mean:     {d['mean']:>10}\n"
-        rep += f"Variance: {round(d['variance'],3):>10}\n"
-        rep += f"StdDev:   {round(d['stddev'],3):>10}\n"
+        rep += f"Data count: {len(self.data)}\n"
+        rep += f"Minvalue:   {d['min']:>10}\n"
+        rep += f"Maxvalue:   {d['max']:>10}\n"
+        rep += f"Range:      {d['range']:>10}\n"
+        rep += f"Median:     {d['median']:>10}\n"
+        rep += f"Mean:       {d['mean']:>10.2f}\n"
+        rep += f"Variance:   {round(d['variance'],2):>10.2f}\n"
+        rep += f"StdDev:     {round(d['stddev'],2):>10.2f}\n"
         return rep
     

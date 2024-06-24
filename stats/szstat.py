@@ -39,9 +39,6 @@ class SZStat(basestat.BaseStat):
 
         self.data.append(value)
 
-
-
-
     def getMin(self):
         """
         Berechnet das Minimum der Datenliste
