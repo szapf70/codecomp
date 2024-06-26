@@ -12,7 +12,7 @@ bdata = []
 for _ in range(20000):
     bdata.append(random.randint(0,1000))
 
-# Benchmark  
+# Benchmark  szstat
 
 sz1 = szstat.SZStat(bdata)
 print(sz1.Report())

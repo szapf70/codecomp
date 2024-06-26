@@ -10,9 +10,6 @@ class BaseStat(ABC):
     
     Methoden
     
-    addValue(value)
-        Fügt den übergebenen Wert der Datenliste des Objekts hinzu.
-    
     getMin()
         Berechnet das Minimum und gibt es zurück.
         
@@ -61,17 +58,6 @@ class BaseStat(ABC):
             
         self.window = window
     
-    @abstractmethod
-    def addValue(self, value):
-        """
-        Fügt den übergebenen Wert der Datenliste hinzu.
-        
-        Parameter
-            Wert
-        
-        """    
-
-
     @abstractmethod
     def getMin(self):
         """
