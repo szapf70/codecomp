@@ -1,13 +1,10 @@
-from abc import ABC, abstractmethod
+import sys
 
-class BaseStat(ABC):
+import basestat
+
+
+class SZStatPro(basestat.BaseStat):
     """
-    Interface für Klassen zur Berechnung grundlegender statistischer Kennzahlen.
-    Bis auf den Konstruktor und die Reportfunktion nur abstrakte Methoden
-    Bei der Instanzierung wird festgelegt ob die Kennzahlen immer für die gesamten Daten
-    oder nur für die letzten n Daten berechnet werden soll. Diese Eigenschaft kann zur Lebensdauer des
-    Objekts nicht mehr geändert werden.
-    
     Methoden
     
     getMin()
@@ -31,34 +28,63 @@ class BaseStat(ABC):
     getStdDev()
         Berechnet die Standardabweichung und gibt sie zurück.
         
-    getReport()
-        Erstellt einen Bericht und gibt ihn als mehrzeiligen String zurück.
-    
     """
-    
-    def __init__(self, data, window = 0):
-        """
-        Konstruktor von BaseStat
+   
+    def __init__(self, data, window=0):
+        self._window = window
+        self._max = 0
+        self._min = sys.maxsize 
+        self._sum = 0
         
-        Parameter
-        
-        data : list
-            Liste von Daten die schon zu Beginn zur Verfügung stehen sollen.
-            
-        window : int
-            Größe des Fensters für die Berechnung. Das Fenster befindet sich am Ende der Datenliste.
-            Bei Fenstergröße 0 werden die Berechnungen immer auf dem Kompletten Datensatz ausgeführt.        
-        
-        """    
-        
-        if not window or len(data) < window:
-            self.data = data
+        if not self._window or len(data) < self._window:        
+            self._data = data.copy()
         else:
-            self.data = data[-window:] 
+            self._data = data.copy()[-self._window:]
             
-        self.window = window
+        self._len = len(self._data)
+            
+        for v in self._data:
+            self._sum += v     
+            if v > self._max:
+                self._max = v
+            if v < self._min:
+                self._min = v
+
+        self._mean = self._sum / self._len                
+                
     
-    @abstractmethod
+    def addValue(self,value):
+        if not self._window or len(self._data) < self._window:        
+            self._data.append(value)
+            if value < self._min:
+                self._min = value
+            if value > self._max:
+                self._max = value
+            self._sum += value
+            self._len += 1
+            self._mean = self._sum / self._len
+            
+        else:
+            if value < self._min:
+                self._min = value
+            if value > self._max:
+                self._max = value
+            
+            r = self._data.pop(0)
+            self._data.append(value)
+            if r == self._min or r == self._max:
+                self._min = sys.maxsize
+                self._max = 0            
+                for v in self._data:
+                    if v > self._max:
+                        self._max = v
+                    if v < self._min:
+                        self._min = v    
+
+            self._sum -= r
+            self._sum += value
+            self._mean = self._sum / self._len
+
     def getMin(self):
         """
         Berechnet das Minimum der Datenliste
@@ -69,9 +95,8 @@ class BaseStat(ABC):
             Kleinster Wert in der Datenliste
         
         """
-        pass        
-
-    @abstractmethod
+        return self._min        
+        
     def getMax(self):
         """
         Berechnet das Maximum der Datenliste
@@ -82,9 +107,8 @@ class BaseStat(ABC):
             Größter Wert in der Datenliste
         
         """
-        pass
+        return self._min   
         
-    @abstractmethod
     def getRange(self):
         """
         Berechnet die Spannweite in der Datenliste
@@ -95,12 +119,11 @@ class BaseStat(ABC):
             Differenz des größten zum kleinsten Wert in der Datenliste.
             
         """
-        pass
+
+        return self._max - self._min
     
-    @abstractmethod
     def getMean(self):
         """
-        
         Berechnet den Mittelwert der Datenliste.
         
         Rückgabewert
@@ -109,9 +132,8 @@ class BaseStat(ABC):
             Mittelwert der Datenliste.
         
         """
-        pass    
-    
-    @abstractmethod    
+        return self._mean            
+
     def getMedian(self):
         """
         Berechnet den Median der Datenliste.
@@ -122,9 +144,19 @@ class BaseStat(ABC):
             Median der Datendatenliste.
         
         """
-        pass
-    
-    @abstractmethod        
+
+        lData = []
+        
+        if not self._window or len(self._data) < self._window:        
+            lData = sorted(self._data)
+        else:
+            lData = sorted(self._data[-self._window:])
+
+        if len(lData)%2:
+            return lData[len(lData)//2]
+        else:
+            return (lData[(len(lData)//2)-1] + lData[len(lData)//2])/2
+            
     def getVariance(self):
         """
         Berechnet die Varianz der Datenliste.
@@ -135,9 +167,21 @@ class BaseStat(ABC):
             Varianz der Datenliste.
         
         """    
-        pass
-  
-    @abstractmethod    
+        
+        lVariance = 0
+        lData = []
+        
+        if not self._window or len(self._data) < self._window:        
+            lData = self._data
+        else:
+            lData = self._data[-self._window:]
+        
+        for v in lData:
+            lVariance += (v - self._mean)**2
+        lVariance /= len(lData)
+        
+        return lVariance    
+        
     def getStdDev(self):
         """
         Berechnet die Standardabweichung.
@@ -148,8 +192,8 @@ class BaseStat(ABC):
             Standardabweichung der Datenliste
             
         """    
-        pass
-    
+        
+        return self.getVariance() ** 0.5
     
     def Desc(self):
         """
@@ -160,11 +204,11 @@ class BaseStat(ABC):
         
         
         """
-        return {"min" : self.getMin(),
-                "max" : self.getMax(),
-                "range" : self.getRange(),
+        return {"min" : self._min,
+                "max" : self._max,
+                "range" : self._max - self._min,
                 "median" : self.getMedian(),
-                "mean" : self.getMean(),
+                "mean" : self._mean,
                 "variance" : self.getVariance(),
                 "stddev" : self.getStdDev()}
     
@@ -179,7 +223,7 @@ class BaseStat(ABC):
         
         rep = f"Report for {super().__str__()}\n"
         d = self.Desc()
-        rep += f"Data count: {len(self.data)}\n"
+        rep += f"Data count: {len(self._data)}\n"
         rep += f"Minvalue:   {d['min']:>10}\n"
         rep += f"Maxvalue:   {d['max']:>10}\n"
         rep += f"Range:      {d['range']:>10}\n"

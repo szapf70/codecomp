@@ -1,4 +1,5 @@
 import sys
+
 import basestat
 
 
@@ -88,6 +89,7 @@ class SZStat(basestat.BaseStat):
             Differenz des größten zum kleinsten Wert in der Datenliste.
             
         """
+
         return self.getMax() - self.getMin()
     
     def getMean(self):
