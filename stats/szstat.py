@@ -1,4 +1,5 @@
 import sys
+
 import basestat
 
 
@@ -28,19 +29,6 @@ class SZStat(basestat.BaseStat):
         Berechnet die Standardabweichung und gibt sie zurück.
         
     """
-    def addValue(self, value):
-        """
-        Fügt den übergebenen Wert der Datenliste hinzu.
-        
-        Parameter
-            Wert
-        
-        """    
-
-        self.data.append(value)
-
-
-
 
     def getMin(self):
         """
@@ -101,6 +89,7 @@ class SZStat(basestat.BaseStat):
             Differenz des größten zum kleinsten Wert in der Datenliste.
             
         """
+
         return self.getMax() - self.getMin()
     
     def getMean(self):
@@ -165,9 +154,9 @@ class SZStat(basestat.BaseStat):
         lData = []
         
         if not self.window or len(self.data) < self.window:        
-            lData = sorted(self.data)
+            lData = self.data
         else:
-            lData = sorted(self.data[-self.window:])
+            lData = self.data[-self.window:]
         
         for v in lData:
             lVariance += (v - lMean)**2
