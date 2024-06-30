@@ -1,11 +1,14 @@
-n = 71
-s = 0
 
-while n > 1:
-    if n%2:
-        n-=1
-    else:
-        n/=2
-    s += 1
-    
-print(s)            
+
+def logical_calc(arr, op):
+    op = " " + op.lower() + " "
+    e = op.join([str(f) for f in arr])
+    return eval(e)
+
+
+
+
+
+print(logical_calc([True, False], "AND"), False)
+#print(logical_calc([True, False], "OR"), True)
+#print(logical_calc([True, False], "XOR"), True)
