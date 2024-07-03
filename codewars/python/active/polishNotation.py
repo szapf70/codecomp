@@ -1,7 +1,9 @@
-# https://www.codewars.com/kata/577e9095d648a15b800000d4/train/python
-# Evaluate a postfix expression
+# https://www.codewars.com/kata/52f78966747862fc9a0009ae/train/python
+# Reverse polish notation calculator
 
-def postfix_evaluator(expr):
+def calc(expr):
+    if expr == "":
+        return ""
     q = []
     for t in expr.split():
         if t in '+-*/':
@@ -14,9 +16,9 @@ def postfix_evaluator(expr):
             if t == '*':
                 q.append(la*lb)
             if t == '/':
-                q.append(int(la//lb))
+                q.append(la/lb)
         else:    
-            q.append(int(t))
+            q.append(float(t))
     return q[0]        
 
 
@@ -39,5 +41,5 @@ tests = [("2 3 +", 5),
 #print(postfix_evaluator("2 3 9 4 / + *"))
 
 for t,r in tests:
-    print(postfix_evaluator(t))
+    print(calc(t))
     print(r)
