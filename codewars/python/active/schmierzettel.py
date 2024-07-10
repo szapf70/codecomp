@@ -1,14 +1,9 @@
-
-
-def logical_calc(arr, op):
-    op = " " + op.lower() + " "
-    e = op.join([str(f) for f in arr])
-    return eval(e)
-
-
-
-
-
-print(logical_calc([True, False], "AND"), False)
-#print(logical_calc([True, False], "OR"), True)
-#print(logical_calc([True, False], "XOR"), True)
+def new_avg(arr,newavg):
+    print(newavg*(len(arr)+1))
+    print(sum(arr))
+    
+    
+    
+print(new_avg([14, 30, 5, 7, 9, 11, 16], 90), 628)
+#print(new_avg([14, 30, 5, 7, 9, 11, 15], 92), 645)
+   
