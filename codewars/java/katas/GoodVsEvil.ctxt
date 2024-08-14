@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=GoodVsEvil
+comment1.params=goodAmounts\ evilAmounts
+comment1.target=java.lang.String\ battle(java.lang.String,\ java.lang.String)
+numComments=2
