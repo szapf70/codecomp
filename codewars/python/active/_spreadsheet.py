@@ -23,5 +23,3 @@ def spreadsheet(s):
         return "R" + nums[0] + "C" + str(letterToInt("".join(re.findall(r"[^\d\W+]",s))))  
     if len(nums) == 2:
         return intToLetter(int(nums[1])) + nums[0] 
-
-
