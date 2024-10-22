@@ -1,5 +1,6 @@
 import os
 import requests
+# für curl  ----  curl -v --noproxy localhost, http://localhost:8080
 
 def send_get_request():
     try:
