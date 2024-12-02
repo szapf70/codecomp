@@ -1,3 +1,5 @@
+text = "haaaalloaa"
 
+text = text.replace("aa", "_")
 
-print(pr(21))
+print(text)
