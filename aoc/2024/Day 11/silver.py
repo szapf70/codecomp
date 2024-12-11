@@ -1,7 +1,4 @@
 import math
-import sys
-
-
 
 def blink(stns):
     _stns = []
@@ -26,7 +23,7 @@ puzzle = "112 1110 163902 0 7656027 83039 9 74"
 
 stones = list(map(int, puzzle.split()))
 print(len(stones), stones)
-for nblink in range(75):
+for nblink in range(25):
     stones = blink(stones)
     print(nblink+1, len(stones))    
     
