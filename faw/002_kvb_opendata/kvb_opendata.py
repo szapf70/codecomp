@@ -73,18 +73,48 @@ def import_kvb_opendata():
         
         if 'geometry' in e:
             g = e['geometry']['coordinates']
-            _hs['nb'] = g[1]
-            _hs['ol'] = g[0]        
+            _hs['Nb'] = g[1]
+            _hs['Ol'] = g[0]        
 
         if 'Linien' in p:
             _hs['Linien'] = p['Linien']
-        
-        
+
         all_data[p['Kurzname']]['Haltestellen'].append(_hs)    
+
+    # Berechnung der Haltestellenbereichskoordinaten durch
+    # Mittelung der Haltestellenkoordinaten.
+    
+    for _hsb in all_data:
+        _nb, _ol = [], []
+        
+        for _hs in all_data[_hsb]['Haltestellen']:
+            _nb.append(_hs['Nb'])
+            _ol.append(_hs['Ol'])
+        
+        all_data[_hsb]['Nb'] = sum(_nb)/len(_nb)
+        all_data[_hsb]['Ol'] = sum(_ol)/len(_ol)    
+
+    # Anreicherung durch 'fahrtreppen.json'
+    
+    for e in ft['features']:
+        g = e['geometry']['coordinates']
+        p = e['properties']
+
+        _hsb = lut[p['Haltestellenbereich']]
+
+        if not 'Fahrtreppen' in all_data[_hsb]:
+            all_data[_hsb]['Fahrtreppen'] = []
+
+        _ft = {'nb' : g[1],
+               'ol' : g[0],
+               'Kennung' : p['Kennung'],
+               'Bezeichnung' : p['Bezeichnung']}
+    
+        all_data[_hsb]['Fahrtreppen'].append(_ft)
     
     # Anreicherung durch 'aufzuege.json'
     
-    for e in ft['features']:
+    for e in az['features']:
         g = e['geometry']['coordinates']
         p = e['properties']
 
@@ -115,6 +145,9 @@ def import_kvb_opendata():
     for e in hsb['features']:
         p = e['properties']
         all_data[lut[p['Haltestellenbereich']]]['Dfi'] = 'Ja'
+    
+    
+    
     
     
     # Komplettdatensatz speichern.
