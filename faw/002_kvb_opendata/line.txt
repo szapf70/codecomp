@@ -1,0 +1,74 @@
+    fahrplaene = {    
+                "1" : [("WEW","Weiden West"),("WNS","Weiden Römergrab"),("WRB","Weiden Zentrum"),("BAH","Bahnstr."),("MWG","Mohnweg"),("JUK","Junkersdorf"),("STD","RheinEnergieSTADION"),
+                       ("MGD","Alter Militärring"),("EUP","Eupener Str."),("CBS","Clarenbachstift"),("MAA","Maarweg"),("ASG","Aachener Str./Gürtel"),("MEL","Melaten"),
+                       ("UNV","Universitätsstr."),("MOL","Moltkestr."),("RDP","Rudolfplatz"),("NEU","Neumarkt"),("HMG","Heumarkt"),("DZF","Deutzer Freiheit"),("BDM","Bf Deutz/Messe"),
+                       ("DZB","Deutz Technische Hochschule"),("KPO","Kalk Post"),("KKP","Kalk Kapelle"),("FDS","Fuldaer Str."),("HFR","Sportpark Höhenberg"),("KAF","Kalker Friedhof"),
+                       ("MRH","Merheim"),("FLE","Flehbachstr."),("BMP","Brück Mauspfad"),("LUS","Lustheide"),("RFR","Refrath"),("KIP","Kippekausen"),("FKF","Frankenforst"),
+                       ("NEW","Neuenweg"),("KNS","Kölner Str."),("IHK","Im Hoppenkamp"),("BSB","Bensberg")],
+
+                "3" : [("MEN","Görlinger-Zentrum"),("OHR","Ollenhauerring"),("SRG","Schaffrathsgasse"),("BOC","Bocklemünd"),("WSF","Westfriedhof"),("WOF","Wolffsohnstr."),
+                       ("AKA","Akazienweg"),("BIK","Rochusplatz"),("LEY","Leyendeckerstr."),("VSG","Venloer Str./Gürtel"),("KOR","Körnerstr."),("PIU","Piusstr."),
+                       ("HBP","Hans-Böckler-Platz/Bf West"),("FSP","Friesenplatz"),("APB","Appellhofplatz"),("NEU","Neumarkt"),("PSS","Poststr."),("SEV","Severinstr."),
+                       ("SVS","Suevenstr."),("BDK","Bf Deutz/LANXESS arena"),("MSO","Koelnmesse"),("STE","Stegerwaldsiedlung"),("WDK","Buchforst Waldecker Str."),
+                       ("BUC","Buchheim Frankfurter Str."),("BHE","Buchheim Herler Str."),("WIC","Wichheimer Str."),("VRS","Holweide Vischeringstr."),("MHS","Maria-Himmelfahrt-Str."),
+                       ("NFS","Neufelder Str."),("DMP","Dellbrück Mauspfad"),("DHS","Dellbrück Hauptstr."),("THB","Thielenbruch")],
+
+    "4" : [("BOC","Bocklemünd"),("WSF","Westfriedhof"),("WOF","Wolffsohnstr."),("AKA","Akazienweg"),("BIK","Rochusplatz"),("LEY","Leyendeckerstr."),("VSG","Venloer Str./Gürtel"),
+                ("KOR","Körnerstr."),("PIU","Piusstr."),("HBP","Hans-Böckler-Platz/Bf West"),("FSP","Friesenplatz"),("APB","Appellhofplatz"),("NEU","Neumarkt"),
+                ("PSS","Poststr."),("SEV","Severinstr."),("SVS","Suevenstr."),("BDK","Bf Deutz/LANXESS arena"),("MSO","Koelnmesse"),("STE","Stegerwaldsiedlung"),
+                ("GRU","Grünstr."),("WPL","Mülheim Wiener Platz"),("KEU","Keupstr."),("VSS","Von-Sparr-Str."),("MBA","Mülheim Berliner Str."),("IMW","Im Weidenbruch"),
+                ("AEB","Am Emberg"),("LEU","Leuchterstr."),("ODS","Odenthaler Str."),("SLB","Schlebusch")],
+
+    "5" : [("KPS","Sparkasse Am Butzweilerhof"),("IAK","IKEA Am Butzweilerhof"),("KOE","Alter Flughafen Butzweilerhof"),("RKL","Rektor-Klein-Str."),
+                ("MAR","Margaretastr."),("ILT","Iltisstr."),("LEN","Lenauplatz"),("NBS","Nußbaumerstr."),("SSG","Subbelrather Str./Gürtel"),("LIE","Liebigstr."),
+                ("GUT","Gutenbergstr."),("HBP","Hans-Böckler-Platz/Bf West"),("FSP","Friesenplatz"),("APB","Appellhofplatz"),("DOM","Dom/Hbf"),("RAT","Rathaus"),("HMG","Heumarkt")],
+
+    "7" : [("BZT","Frechen-Benzelrath"),("MHG","Mühlengasse"),("FRR","Frechen Rathaus"),("FRK","Frechen Kirche"),("FRB","Frechen Bf"),("HVO","Haus Vorst"),
+                ("MAD","Marsdorf"),("SGH","Stüttgenhof"),("BRA","Brahmsstr."),("DSG","Dürener Str./Gürtel"),("WUE","Wüllnerstr."),("ASG","Aachener Str./Gürtel"),
+                ("MEL","Melaten"),("UNV","Universitätsstr."),("MOL","Moltkestr."),("RDP","Rudolfplatz"),("NEU","Neumarkt"),("HMG","Heumarkt"),("DZF","Deutzer Freiheit"),
+                ("SVB","Severinsbrücke"),("DRE","Drehbrücke"),("PKI","Poller Kirchweg"),("RAI","Raiffeisenstr."),("POS","Poll Salmstr."),("PAB","Poll Baumschulenweg"),
+                ("WKS","Westhoven Kölner Str."),("WBS","Westhoven Berliner Str."),("EGI","Ensen Gilgaustr."),("EKL","Ensen Kloster"),("PST","Porz Steinstr."),
+                ("PZM","Porz Markt"),("RSH","Rosenhügel"),("ZDF","Zündorf")],
+
+    "9" : [("SHP","Sülz Hermeskeiler Platz"),("MOM","Mommsenstr."),("ZPG","Zülpicher Str./Gürtel"),("LIN","Lindenburg"),
+                ("WEY","Weyertal"),("UNI","Universität"),("DBS","Dasselstr./Bf Süd"),("ZPL","Zülpicher Platz"),("MAK","Mauritiuskirche"),
+                ("NEU","Neumarkt"),("HMG","Heumarkt"),("DZF","Deutzer Freiheit"),("BDM","Bf Deutz/Messe"),("DZB","Deutz Technische Hochschule"),
+                ("KPO","Kalk Post"),("KKP","Kalk Kapelle"),("VGT","Vingst"),("OSH","Ostheim"),("AUT","Autobahn"),("SWG","Steinweg"),
+                ("POZ","Porzer Str."),("RHM","Rath/Heumar"),("ROE","Röttgensweg"),("KGF","Königsforst")],
+
+    "12" : [("HGW","Zollstockgürtel"),("GOW","Gottesweg"),("HTH","Herthastr."),("POH","Pohligstr."),
+                ("EIF","Eifelplatz"),("EFS","Eifelstr."),("BAB","Barbarossaplatz"),("ZPL","Zülpicher Platz"),("RDP","Rudolfplatz"),
+                ("FSP","Friesenplatz"),("CPH","Christophstr./Mediapark"),("HSR","Hansaring"),("EBP","Ebertplatz"),("LOH","Lohsestr."),
+                ("FLO","Florastr."),("NSG","Neusser Str./Gürtel"),("MOW","Mollwitzstr."),("SCE","Scheibenstr."),("WSS","Wilhelm-Sollmann-Str."),
+                ("NIL","Niehl Nord"),("GEE","Geestemünder Str."),("FWS","Fordwerke Süd"),("FWM","Fordwerke Mitte"),("FWN","Fordwerke Nord"),
+                ("MEM","Merkenich Mitte"),("MEK","Merkenich")],
+
+    "13" : [("SZG","Sülzgürtel"),("BRG","Berrenrather Str./Gürtel"),("EUS","Euskirchener Str."),("ZPG","Zülpicher Str./Gürtel"),("GSG","Gleueler Str./Gürtel"),
+                ("DSG","Dürener Str./Gürtel"),("WUE","Wüllnerstr."),("ASG","Aachener Str./Gürtel"),("OJS","Melatengürtel"),("MLG","Weinsbergstr./Gürtel"),
+                ("VSG","Venloer Str./Gürtel"),("SSG","Subbelrather Str./Gürtel"),("NBS","Nußbaumerstr."),("ECH","Escher Str."),("GSP","Geldernstr./Parkgürtel"),
+                ("NSG","Neusser Str./Gürtel"),("AMG","Amsterdamer Str./Gürtel"),("SLA","Slabystr."),("WPL","Mülheim Wiener Platz"),("BFM","Bf Mülheim"),
+                ("BHE","Buchheim Herler Str."),("WIC","Wichheimer Str."),("VRS","Holweide Vischeringstr.")],
+
+    "15" : [("CHW","Chorweiler"),("HEI","Heimersdorf"),("LGR","Longerich Friedhof"),("LGS","Longericher Str."),("MEE","Meerfeldstr."),("HFD","Herforder Str."),
+                ("ATP","Altonaer Platz"),("WSS","Wilhelm-Sollmann-Str."),("SCE","Scheibenstr."),("MOW","Mollwitzstr."),("NSG","Neusser Str./Gürtel"),("FLO","Florastr."),
+                ("LOH","Lohsestr."),("EBP","Ebertplatz"),("HSR","Hansaring"),("CPH","Christophstr./Mediapark"),("FSP","Friesenplatz"),("RDP","Rudolfplatz"),("ZPL","Zülpicher Platz"),
+                ("BAB","Barbarossaplatz"),("EFS","Eifelstr."),("ULR","Ulrepforte"),("CWP","Chlodwigplatz"),("UBI","Ubierring")],
+
+    "16" : [("NIS","Niehl Sebastianstr."),("NRO","Nesselrodestr."),("AMG","Amsterdamer Str./Gürtel"),("KKR","Kinderkrankenhaus"),("RPP","Reichenspergerplatz"),
+                ("EBP","Ebertplatz"),("BRE","Breslauer Platz/Hbf"),("DOM","Dom/Hbf"),("APB","Appellhofplatz"),("NEU","Neumarkt"),("PSS","Poststr."),("BAB","Barbarossaplatz"),
+                ("EFS","Eifelstr."),("ULR","Ulrepforte"),("CWP","Chlodwigplatz"),("UBI","Ubierring"),("SHS","Schönhauser Str."),("OBU","Bayenthalgürtel"),
+                ("HLU","Heinrich-Lübke-Ufer"),("BRK","Rodenkirchen Bf"),("SGS","Siegstr."),("MIC","Michaelshoven"),("SUT","Sürth Bf"),("BFG","Godorf Bf"),
+                ("WEN","Wesseling Nord"),("WES","Wesseling"),("WSU","Wesseling Süd"),("URF","Urfeld"),("WDG","Widdig"),("UED","Uedorf"),("HRS","Hersel")],
+
+    "17" : [("SEV","Severinstr."),("KAT","Kartäuserhof"),("CWP","Chlodwigplatz"),("ABW","Bonner Wall"),("SHS","Schönhauser Str."),("OBU","Bayenthalgürtel"),
+                ("HLU","Heinrich-Lübke-Ufer"),("BRK","Rodenkirchen Bf"),("SGS","Siegstr."),("MIC","Michaelshoven"),("SUT","Sürth Bf")],
+
+    "18" : [("THB","Thielenbruch"),("DHS","Dellbrück Hauptstr."),("DMP","Dellbrück Mauspfad"),("NFS","Neufelder Str."),("MHS","Maria-Himmelfahrt-Str."),
+                ("VRS","Holweide Vischeringstr."),("WIC","Wichheimer Str."),("BHE","Buchheim Herler Str."),("BFM","Bf Mülheim"),("WPL","Mülheim Wiener Platz"),
+                ("SLA","Slabystr."),("BOT","Boltensternstr."),("ZOO","Zoo/Flora"),("RPP","Reichenspergerplatz"),("EBP","Ebertplatz"),("BRE","Breslauer Platz/Hbf"),
+                ("DOM","Dom/Hbf"),("APB","Appellhofplatz"),("NEU","Neumarkt"),("PSS","Poststr."),("BAB","Barbarossaplatz"),("EFW","Eifelwall/Stadtarchiv"),
+                ("WEH","Weißhausstr."),("ANU","Arnulfstr."),("SBU","Sülzburgstr."),("SZG","Sülzgürtel"),("KLB","Klettenbergpark"),("EFR","Efferen"),
+                ("KIB","Kiebitzweg"),("HHB","Hürth-Hermülheim"),("FIB","Fischenich"),("VOC","Brühl Vochem"),("BNO","Brühl Nord"),("BRM","Brühl Mitte"),
+                ("BRS","Brühl Süd"),("BDO","Badorf"),("SWA","Schwadorf"),("WBB","Walberberg"),("MEB","Merten"),("WAB","Waldorf"),("DER","Dersdorf"),
+                ("BOR","Bornheim"),("BHR","Bornheim Rathaus"),("ROI","Roisdorf West"),("ALF","Alfter / Alanus Hochschule")]
+    }

@@ -37,6 +37,13 @@ def import_kvb_opendata():
         az = json.load(az_file)
         vo_file = open('json/verkaufsorte.json')
         vo = json.load(vo_file)
+        fts_file = open('json/fahrtreppenstoerungen.json')
+        fts = json.load(fts_file)
+        azs_file = open('json/aufzugstoerungen.json')
+        azs = json.load(azs_file)
+        fp_file = open('json/fahrplaene.json')
+        fp = json.load(fp_file)
+
     # Dateien schließen, auch wen was schiefging
     finally:    
         hsb_file.close()
@@ -45,9 +52,14 @@ def import_kvb_opendata():
         ft_file.close()
         az_file.close()
         vo_file.close()
+        fts_file.close()
+        azs_file.close()
+        fp_file.close()
+
 
     # Erstellen der "Megastruktur" und der LookUpTable
-    
+
+    disorders = {}    
     all_data = {}
     lut = {}
     
@@ -58,7 +70,7 @@ def import_kvb_opendata():
         all_data[p['kurzname']] = {
                                     'Haltestellenbereich' : p['Haltestellenbereich'],
                                     'Haltestellenname' : p['Haltestellenname'],
-                                    'Linien' : p.get('Linien', "").lstrip(),
+                                    'Linien' : p.get('Linien', "").strip().split(),
                                     'Betriebsbereich' : p['Betriebsbereich']
                                   }
     
@@ -77,7 +89,7 @@ def import_kvb_opendata():
             _hs['Ol'] = g[0]        
 
         if 'Linien' in p:
-            _hs['Linien'] = p['Linien']
+            _hs['Linien'] = p['Linien'].strip().split()
 
         all_data[p['Kurzname']]['Haltestellen'].append(_hs)    
 
@@ -146,13 +158,19 @@ def import_kvb_opendata():
         p = e['properties']
         all_data[lut[p['Haltestellenbereich']]]['Dfi'] = 'Ja'
     
-    
-    
-    
+    # Störungen von Fahrtreppen und Aufzuegen einlesen.
+
+    for e in fts['features']:
+        p = e['properties']
+        disorders[p['Kennung']] = p['timestamp']
+        
+    for e in azs['features']:
+        p = e['properties']
+        disorders[p['Kennung']] = p['timestamp']
     
     # Komplettdatensatz speichern.
     
-    with open('json/all_data.json', 'w') as a:
+    with open('json/all_data.json', 'w', encoding = 'UTF-8') as a:
         a.write(json.dumps(all_data, indent = 4))
-    
-    return all_data, lut    
+
+    return all_data, lut, disorders, fp    

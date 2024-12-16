@@ -29,7 +29,7 @@ def anzahl_linien(data):
     linien = set()
     for _hsb in data:
         if data[_hsb]['Linien']:
-            linien = linien.union(set(data[_hsb]['Linien'].split())) 
+            linien = linien.union(set(data[_hsb]['Linien'])) 
     return len(linien)  
    
 def max_haltestellen_max_linien(data):
@@ -51,7 +51,7 @@ def max_haltestellen_max_linien(data):
     
     for _hsb in data:
         _h = len(data[_hsb]['Haltestellen'])
-        _l = len(data[_hsb]['Linien'].split())
+        _l = len(data[_hsb]['Linien'])
         if _h >= _max['h_max']:
             _max['h_max'] = _h
             _max['haltestellen'].append((data[_hsb]['Haltestellenname'], _h))
@@ -151,7 +151,7 @@ def gemeinsame_stationen(data):
 
     for _hsb in data:
         # Kombinationen aller Linine dieses Haltestellenbereichs erstellen.
-        _cs = itertools.combinations(data[_hsb]['Linien'].split(),2)
+        _cs = itertools.combinations(data[_hsb]['Linien'],2)
         for _c in _cs: 
             _ans[_c] = _ans.get(_c,0) + 1
 
@@ -177,7 +177,7 @@ def div_abdeckung(data):
     # Daten sammeln
     
     for _hsb in data:
-        for _l in data[_hsb]['Linien'].split():
+        for _l in data[_hsb]['Linien']:
             if not _l in _ans:
                 _ans[_l] = {'cnt' : 0, 'cnt_dfi' : 0, 'cnt_ft' : 0, 'cnt_az' : 0,
                             'proz_dfi' : 0, 'proz_ft' : 0, 'proz_az' : 0}
@@ -205,7 +205,7 @@ def ermittele_betriebsbereich(data):
     for _hsb in data:
         for _hs in data[_hsb]['Haltestellen']:
             if 'Linien' in _hs:
-                _linien = list(filter(lambda l: len(l) < 3, _hs['Linien'].split()))
+                _linien = list(filter(lambda l: len(l) < 3, _hs['Linien']))
                 for _l in _linien:
                     if not int(_l) in _ans:
                         _ans[int(_l)] = set()
@@ -226,7 +226,7 @@ def strab_kundencenter_check(data):
     
     _ans = {}
     for _hsb in data:
-        for _l in data[_hsb]['Linien'].split():
+        for _l in data[_hsb]['Linien']:
             if len(_l) < 3:
                 if _l not in _ans:
                     _ans[_l] = 0
@@ -235,9 +235,45 @@ def strab_kundencenter_check(data):
 
     return _ans        
 
+def hsb_distances(data,Nb, Ol):
+    """Berechnet die Entfernung jedes einzelnen Haltestellenbereiches zur übergebenen Position.
+    
+        Parameter:
+            data: Von kvb_opendata.import_kvb_opendata() generierte Datenstruktur.
+            Nb,Ol: Position zu der die Entfernung ermitteln werden soll.
+
+        Rückgabe:
+            list of tuple: (Kurzname, Entfernung) der Haltestellenbereiche zur gegebenen Position.    
+    """
+    ans = []
+    for _hsb in data:
+        dis = (abs(Nb-data[_hsb]['Nb'])**2 + abs(Ol-data[_hsb]['Ol'])**2)**.5
+        ans.append((_hsb, dis))
+
+    return ans
+
+def get_hsb(data, line):
+    """Ermittelt alle Haltestellenbereiche für die übergebene Linie
+    
+        Parameter:
+            data: Von kvb_opendata.import_kvb_opendata() generierte Datenstruktur.
+            line: Linie 
+
+        Rückgabe:
+            list: Alle Kurznaame der Haltestelle an denen die Linie verkehrt.        
+    """
+
+    ans = []
+
+    for _hsb in data:
+        if line in data[_hsb]['Linien']:
+            ans.append(_hsb)
+
+    return ans        
 
 
-data, lut = kvb_opendata.import_kvb_opendata()
+
+data, lut, disorders, fp = kvb_opendata.import_kvb_opendata()
 
 trn()
 print("Schwierigkeitsgrad - leicht")
@@ -338,4 +374,52 @@ for _l in sorted(ans2.keys(), key = lambda s: int(s)):
         else:
             print("Leider kann man auch mit einmal umsteigen kein KundenCenter erreichen.")         
         
+trn()
+ans = hsb_distances(data, 51.002608, 6.950598)
+ans = sorted(ans, key = lambda hsb: hsb[1])
+nhs = ans[0]
+nhsmf, fts = None, ""
+nhsma, azs = None, ""
 
+for hsb, dis in ans:
+    if 'Fahrtreppen' in data[hsb]:
+        for ft in data[hsb]['Fahrtreppen']:
+            if ft['Kennung'] in disorders:
+                fts = "Es gibt eine Störung an einer der Fahrtreppen."
+        nhsmf = (hsb,dis)
+        break
+
+for hsb, dis in ans:
+    if 'Aufzuege' in data[hsb]:
+        for ft in data[hsb]['Aufzuege']:
+            if ft['Kennung'] in disorders:
+                azs = "Es gibt eine Störung an einem der Aufzuege."
+        nhsma = (hsb,dis)
+        break
+
+print("Die nächste Straßenbahnhaltestelle zum (FAW - 51.002608, 6.950598)")
+print(data[nhs[0]]['Haltestellenname'])
+print("Die nächste Straßenbahnhaltestelle mit Fahrtreppen zum (FAW - 51.002608, 6.950598)")
+print(data[nhsmf[0]]['Haltestellenname'], fts)
+print("Die nächste Straßenbahnhaltestelle mit Aufzuege zum (FAW - 51.002608, 6.950598)")
+print(data[nhsma[0]]['Haltestellenname'], azs )
+
+trn()
+
+
+hsb_12 = get_hsb(data, "12")
+
+hsb_12.remove("ZSF")
+linie_012_calc = ["ZSF;Zollstock Südfriedhof"]
+
+while hsb_12:
+    _act = linie_012_calc[-1]
+
+
+
+for hsb in hsb_12:
+    print(f"{hsb};{data[hsb]['Haltestellenname']}")
+
+
+ans = hsb_distances(data, 51.002608, 6.950598)
+ans = sorted(ans, key = lambda hsb: hsb[1])
