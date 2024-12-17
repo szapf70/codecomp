@@ -126,7 +126,7 @@ def windrose(data):
             n_max = _nb
             _ans['N'] = _hsb + ' - ' + data[_hsb]['Haltestellenname']
         if _nb < s_min:
-            n_max = _nb
+            s_min = _nb
             _ans['S'] = _hsb + ' - ' + data[_hsb]['Haltestellenname']
         if _ol > o_max:
             o_max = _ol
@@ -405,7 +405,7 @@ print("Die nächste Straßenbahnhaltestelle mit Aufzuege zum (FAW - 51.002608, 6
 print(data[nhsma[0]]['Haltestellenname'], azs )
 
 trn()
-
+sys.exit()
 
 hsb_12 = get_hsb(data, "12")
 
