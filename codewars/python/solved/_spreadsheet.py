@@ -17,19 +17,9 @@ def letterToInt(l):
         col = col * 26 + (ord(c.upper()) - ord('A') + 1)
     return col
 
-#print(letterToInt("A"))
-#print(letterToInt("AA"))
-#print(letterToInt("CRXO"))
-
 def spreadsheet(s):
     nums = re.findall(r"\d+", s)
     if len(nums) == 1:
-        addr = "R" + nums[0] + "C" + str(letterToInt("".join(re.findall(r"[^\d\W+]",s))))  
-        return addr      
+        return "R" + nums[0] + "C" + str(letterToInt("".join(re.findall(r"[^\d\W+]",s))))  
     if len(nums) == 2:
-        addr = intToLetter(int(nums[1])) + nums[0] 
-        return addr       
-
-
-print(spreadsheet("R65535C65535"))    
-print(spreadsheet("CRXO65535"))    
+        return intToLetter(int(nums[1])) + nums[0] 

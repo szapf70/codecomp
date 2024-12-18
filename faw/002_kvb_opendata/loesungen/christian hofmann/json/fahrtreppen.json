@@ -1,0 +1,4228 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95085810286926,
+					50.9484085849828
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-51",
+				"Bezeichnung": "Ausgang Ritterstr. Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95075113608481,
+					50.9485165419071
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-52",
+				"Bezeichnung": "Ausgang Ritterstr. Fahrtrichtung Christophstr./Mediapark",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95217258804864,
+					50.9489061316182
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-53",
+				"Bezeichnung": "Ausgang S-Bahn Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95208565689239,
+					50.9489893007109
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-54",
+				"Bezeichnung": "Ausgang S-Bahn Fahrtrichtung Christophstr./Mediapark",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95822296730601,
+					50.9501355446629
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-51",
+				"Bezeichnung": "Ausgang Turiner Str.",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95847571149746,
+					50.9509159933413
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-52",
+				"Bezeichnung": "Ausgang Neusser Str.",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95856640971332,
+					50.9510229595466
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-53",
+				"Bezeichnung": "Ausgang Riehler Str. Nord",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95941039406087,
+					50.9511977373641
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-55",
+				"Bezeichnung": "Zwischenebene Nord, Fahrtrichtung Süd",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9595802052744,
+					50.9511477765649
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-56",
+				"Bezeichnung": "Zwischenebene Nord, Fahrtrichtung Nord",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95905509411457,
+					50.9503838712744
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-59",
+				"Bezeichnung": "Zwischenebene Süd, Fahrtrichtung Nord",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95882191999502,
+					50.9504500743233
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-60",
+				"Bezeichnung": "Zwischenebene Süd, Fahrtrichtung Süd",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95966214342736,
+					50.9511111299325
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-62",
+				"Bezeichnung": "Ausgang Riehler Str./Th.-Heuss-Ring",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96444248286385,
+					50.9541894231402
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "003-51",
+				"Bezeichnung": "Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "34",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96456943805907,
+					50.9540613874698
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "003-52",
+				"Bezeichnung": "Fahrtrichtung Zoo/Flora",
+				"Haltestellenbereich": "34",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95496259560336,
+					50.958515332507
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-51",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Ebertplatz",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.955189869996,
+					50.958557785266
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-52",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Florastr.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95557616569551,
+					50.9577442443597
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-53",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Florastr.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9553490155892,
+					50.9577015279078
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-54",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Ebertplatz",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95476132406766,
+					50.9587507127464
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-55",
+				"Bezeichnung": "Ausgang Lohsestr.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95520956432874,
+					50.9587777686305
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-56",
+				"Bezeichnung": "Ausgang Kempener Str.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95350027429739,
+					50.9650936895524
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-51",
+				"Bezeichnung": "Ausgang Mauenheimer Str.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95376061476967,
+					50.9650258400011
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-52",
+				"Bezeichnung": "Ausgang Florastr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95373625544865,
+					50.9649056497321
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-53",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95353667526418,
+					50.9648919317291
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-54",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Lohsestr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95390178803589,
+					50.9640646098501
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-55",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95369874545975,
+					50.9640446652913
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-56",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Lohsestr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95397796064272,
+					50.9638657709663
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-57",
+				"Bezeichnung": "Ausgang Nelkenstr./Wilhelmstr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95375003734514,
+					50.9638425026744
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-58",
+				"Bezeichnung": "Ausgang Viersener Str.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95128006943619,
+					50.9721899491376
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-51",
+				"Bezeichnung": "Fahrtrichtung Florastr.",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9512054585157,
+					50.9722480547889
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-52",
+				"Bezeichnung": "Fahrtrichtung Amsterdamer Str./Gürtel abwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95165986051272,
+					50.9723046916002
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-53",
+				"Bezeichnung": "Fahrtrichtung Amsterdamer Str./Gürtel aufwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95111199216337,
+					50.9723637565886
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-54",
+				"Bezeichnung": "Fahrtrichtung Geldernstr./Parkgürtel aufwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95156669109074,
+					50.9724195343334
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-55",
+				"Bezeichnung": "Fahrtrichtung Mollwitzstr.",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95149209456365,
+					50.9724761586111
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-56",
+				"Bezeichnung": "Fahrtrichtung Geldernstr./Parkgürtel abwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95825250036074,
+					50.9422314254614
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-51",
+				"Bezeichnung": "Halle Hbf - Zwischenebene Ost",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9579047752859,
+					50.9419279496627
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-52",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2 (Appellhofplatz) aufwärts",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95792762960543,
+					50.941751101896
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-53",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 1 (Breslauer Platz/Rathaus)  aufwärts",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95561232760296,
+					50.9418705743943
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-54",
+				"Bezeichnung": "Ausgang Andreaskloster",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95657271348289,
+					50.9418359178879
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-55",
+				"Bezeichnung": "Zwischenebene West - Gleis 2 (Appellhofplatz)",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95659712122585,
+					50.9416892656218
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-56",
+				"Bezeichnung": "Zwischenebene West - Gleis 1 (Breslauer Platz/Rathaus)",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95635563982974,
+					50.9415412617872
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-57",
+				"Bezeichnung": "Ausgang Hohe Str.",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95826527375474,
+					50.9422189814811
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-58",
+				"Bezeichnung": "Zwischenebene Ost - Halle Hbf",
+				"Haltestellenbereich": "752",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95922582192373,
+					50.9438711974932
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-51",
+				"Bezeichnung": "Ausgang Breslauer Platz abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95920380671805,
+					50.94386199953
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-52",
+				"Bezeichnung": "Ausgang Breslauer Platz aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95769348016553,
+					50.9449974334118
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-53",
+				"Bezeichnung": "Ausgang Eigelstein Fahrtrichtung abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95770980574584,
+					50.945007457092
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-54",
+				"Bezeichnung": "Ausgang Eigelstein Fahrtrichtung aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95841227923919,
+					50.9448450661135
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-55",
+				"Bezeichnung": "Ausgang Domstr.",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95931842644521,
+					50.9440656958842
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-61",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1,2 abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95929816199163,
+					50.9440543747257
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-62",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1,2 aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95870760477751,
+					50.944259367603
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-63",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 3 abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95866235469696,
+					50.944237559114
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-64",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 3 aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95792075661781,
+					50.9448499044215
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-65",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 3 abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95793617929172,
+					50.9448593488115
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-66",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 3 aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95864099244292,
+					50.9445314021385
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-67",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1,2",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95979502251947,
+					50.9379970720863
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-51",
+				"Bezeichnung": "Ausgang Alter Markt/Unter Käster, abwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95977104371044,
+					50.9379990238644
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-52",
+				"Bezeichnung": "Ausgang Alter Markt/Unter Käster, aufwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95974302681482,
+					50.9384660000052
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-61",
+				"Bezeichnung": "Zwischenebene - Gleisebene Nord, wechselnd",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95969812488013,
+					50.937975071195
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-62",
+				"Bezeichnung": "Zwischenebene - Gleisebene Süd, aufwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95967500004204,
+					50.9379759999749
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-63",
+				"Bezeichnung": "Zwischenebene - Gleisebene Süd, abfwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95878368278247,
+					50.9357106341378
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-51",
+				"Bezeichnung": "Ausgang Martinstr. /Gürzenich",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95881289748262,
+					50.9354027002864
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-52",
+				"Bezeichnung": "Ausgang Pipinstr.",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95646524158999,
+					50.9352706261851
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-53",
+				"Bezeichnung": "Ausgang Hohe Str./Schildergasse abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95646857768662,
+					50.9352843988516
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-54",
+				"Bezeichnung": "Ausgang Hohe Str./Schildergasse aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95842047861047,
+					50.9355070620444
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-61",
+				"Bezeichnung": "Zwischenebene Ost (Gürzenich) -1 bis -2, abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95840026648604,
+					50.9355367924702
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-62",
+				"Bezeichnung": "Zwischenebene Ost (Gürzenich) - 2 bis -1, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95847992874284,
+					50.9354194988722
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-63",
+				"Bezeichnung": "Zwischenebene Ost (Pipinstr.) -1 bis -2, abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95850012646321,
+					50.9353897611984
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-64",
+				"Bezeichnung": "Zwischenebene Ost (Pipinstr.) - 2 bis -1, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95727045192164,
+					50.9351997288302
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-65",
+				"Bezeichnung": "Zwischenebene West (Hohe Str.) -1 bis -2 , abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95726344526474,
+					50.9352203839148
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-66",
+				"Bezeichnung": "Zwischenebene West (Hohe Str.) - 2 bis -1, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95794882413369,
+					50.9354484435111
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-71",
+				"Bezeichnung": "Nord: Ebene - 2 bis Gleisebene, abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95797300945613,
+					50.9354379233327
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-72",
+				"Bezeichnung": "Nord: Gleisebene bis -2, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95756856795736,
+					50.9350667117794
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-73",
+				"Bezeichnung": "Ausgang Kasinostraße",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95754188616105,
+					50.9350774636792
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-74",
+				"Bezeichnung": "Süd: Gleisebene bis -2, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95750625808027,
+					50.9288174259596
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-51",
+				"Bezeichnung": "Ausgang An St. Katharinen abwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95745448632935,
+					50.9288048347099
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-52",
+				"Bezeichnung": "Ausgang An St. Katharinen aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95733541260479,
+					50.9288929299573
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-53",
+				"Bezeichnung": "Zwischenebene Süd aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95712038308472,
+					50.9296326077988
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-61",
+				"Bezeichnung": "Ausgang Severinstr. aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95731461625904,
+					50.9288531527547
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-62",
+				"Bezeichnung": "Zwischenebene Süd aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95730683595884,
+					50.9287979206009
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-63",
+				"Bezeichnung": "Zwischenebene Süd abwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9570665161743,
+					50.9296263766352
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-64",
+				"Bezeichnung": "Ausgang Severinstr. abwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95851862980274,
+					50.9246600125624
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-51",
+				"Bezeichnung": "Ausgang Severinstr./Kartäuserhof abwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95849556102045,
+					50.9246572912475
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-52",
+				"Bezeichnung": "Ausgang Severinstr./Kartäuserhof aufwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9583927797922,
+					50.9251362227096
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-61",
+				"Bezeichnung": "Zwischenebene Süd abwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9583697110099,
+					50.9251335014258
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-62",
+				"Bezeichnung": "Zwischenebene Süd aufwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95847961520988,
+					50.9247633242413
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-63",
+				"Bezeichnung": "Zwischenebene zum Gleis Nord",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95850268399219,
+					50.9247660455501
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-64",
+				"Bezeichnung": "Oberfläche zur Zwischenebene Nord",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95933424479907,
+					50.9217540931224
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-51",
+				"Bezeichnung": "Ausgang Severinstor aufwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95992814428513,
+					50.9212181852235
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-52",
+				"Bezeichnung": "Ausgang Ubierring Gleis 3",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95997567424703,
+					50.9211068997286
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-53",
+				"Bezeichnung": "Ausgang Ubierring Gleis 4",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95977556222168,
+					50.9208041591101
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-54",
+				"Bezeichnung": "Ausgang Bonner Str.",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95934287796237,
+					50.920918147123
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-55",
+				"Bezeichnung": "Ausgang Merowinger Str.",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95934524346096,
+					50.9212052773287
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-56",
+				"Bezeichnung": "Ausgang Karolingerring",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95927809550983,
+					50.9217475374468
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-57",
+				"Bezeichnung": "Ausgang Severinstor abwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9595210819244,
+					50.9215289074562
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-61",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1,2, aufwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95958439744724,
+					50.9211136216248
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-62",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1,2, aufwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95964103802347,
+					50.921120228301
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-63",
+				"Bezeichnung": "Zwischenebene Süd- Gleis 1,2, abwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95946444135446,
+					50.921522300788
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-64",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1,2, abwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96121154316972,
+					50.9164288888473
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-51",
+				"Bezeichnung": "Ausgang Alteburger Wall",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96135113047924,
+					50.9156729578238
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-52",
+				"Bezeichnung": "Ausgang Bonner Str./Koblenzer Str.",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96103444343251,
+					50.9157105254315
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-53",
+				"Bezeichnung": "Ausgang Bonner Str. stadtauswärts",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96087400873535,
+					50.9164850113955
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-54",
+				"Bezeichnung": "Ausgang Bonner Wall",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96114368032535,
+					50.9162994683635
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-61",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96123767986451,
+					50.9159480837118
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-62",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96097610839572,
+					50.9159196824856
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-63",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 2",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96087746529623,
+					50.9162708148567
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-64",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 2",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95054997488447,
+					50.9401100812621
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-55",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Dom/Friesenplatz",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95036275562751,
+					50.9402294546886
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-56",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Neumarkt",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9506791859419,
+					50.939171079688
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-57",
+				"Bezeichnung": "Zwischenebene Passage Breite Str. - Gleis Richtung Neumarkt",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95048237918071,
+					50.9391714221943
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-58",
+				"Bezeichnung": "Zwischenebene Passage Breite Str. - Gleis Richtung Dom/Friesenplatz",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95059936372784,
+					50.9416526111628
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-51",
+				"Bezeichnung": "Ausgang Kattenbug/Zeughaus/Stadtmuseum",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95086994106646,
+					50.941123585429
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-52",
+				"Bezeichnung": "Zwischenebene zum Gleis Richtung Innenstadt (Linie 5)",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95035512233478,
+					50.9412060414763
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-53",
+				"Bezeichnung": "Zwischenebene - Gleis 3, Fahrtrichtung Dom/Hbf",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95086953238156,
+					50.941140814334
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-54",
+				"Bezeichnung": "Ausgang Verwaltungsgericht/Burgmauer",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95018870288189,
+					50.9312447183348
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "033-51",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Neumarkt",
+				"Haltestellenbereich": "3",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94861580676746,
+					50.936409245844
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-51",
+				"Bezeichnung": "Ausgang Richmodstr./Neumarkt-Galerie abwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94861624319279,
+					50.9364558967227
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-52",
+				"Bezeichnung": "Ausgang Richmodstr./Neumarkt-Galerie aufwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94915622221409,
+					50.9364032800294
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-54",
+				"Bezeichnung": "Ausgang Schildergasse aufwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94915665538341,
+					50.9364499307777
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-55",
+				"Bezeichnung": "Ausgang Schildergasse abwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94913323559717,
+					50.935548285052
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-56",
+				"Bezeichnung": "Gleis 1 - Hugo-Passage",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94890659546584,
+					50.9355009167706
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-57",
+				"Bezeichnung": "Gleis 2 - Hugo-Passage",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94860851681575,
+					50.9356772205866
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-58",
+				"Bezeichnung": "Ausgang Neumarkt, Gleis 3",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94866185207117,
+					50.9358055264349
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-59",
+				"Bezeichnung": "Ausgang Neumarkt, Gleis 4",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94956199588645,
+					50.9347423270333
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-60",
+				"Bezeichnung": "Ausgang Josef-Haubrich-Hof, Gleis 1",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94933227928001,
+					50.9346934624962
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-61",
+				"Bezeichnung": "Ausgang Josef-Haubrich-Hof, Gleis 2",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89780691985744,
+					51.0204891203205
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "041-51",
+				"Bezeichnung": "Ausgang Turkuplatz",
+				"Haltestellenbereich": "385",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9687863488035,
+					50.9707974965964
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "051-51",
+				"Bezeichnung": "Fahrtrichtung Slabystr.",
+				"Haltestellenbereich": "317",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96879022099521,
+					50.9709151735037
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "051-52",
+				"Bezeichnung": "Fahrtrichtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "317",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9397295473874,
+					50.968379793869
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-51",
+				"Bezeichnung": "Ausgang Parkgürtel - Fahrtrichtung Sülz",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93977438794022,
+					50.9682383553152
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-52",
+				"Bezeichnung": "Ausgang Parkgürtel - Fahrtrichtung Holweide",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94093812073674,
+					50.9684999762402
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-53",
+				"Bezeichnung": "Ausgang S-Bahn - Fahrtrichtung Sülz",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94097051072546,
+					50.968403164688
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-54",
+				"Bezeichnung": "Ausgang S-Bahn - Fahrtrichtung Holweide",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93395128621277,
+					50.9646654519268
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "054-51",
+				"Bezeichnung": "Fahrtrichtung Holweide",
+				"Haltestellenbereich": "326",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93379201731469,
+					50.9647427984099
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "054-52",
+				"Bezeichnung": "Fahrtrichtung Sülz",
+				"Haltestellenbereich": "326",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00445285984459,
+					50.961783731712
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-51",
+				"Bezeichnung": "Zwischenebene - Gleis 1,2 aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00446240864218,
+					50.9617967888302
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-52",
+				"Bezeichnung": "Zwischenebene - Gleis 1,2 abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00519505582188,
+					50.9615437486358
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-53",
+				"Bezeichnung": "Ausgang Frankfurter Str. aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00520664453391,
+					50.9615561297709
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-54",
+				"Bezeichnung": "Ausgang Frankfurter Str. abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00411086336493,
+					50.9616708080006
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-55",
+				"Bezeichnung": "Zwischenebene - Gleis 3,4 aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00412994759295,
+					50.9616654145375
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-56",
+				"Bezeichnung": "Zwischenebene - Gleis 3,4 abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00394883244556,
+					50.962303485178
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-57",
+				"Bezeichnung": "Ausgang Einkaufszentrum aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01183565010811,
+					50.9573092927764
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-51",
+				"Bezeichnung": "Ausgang Frankfurter Str. aufwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01181279231488,
+					50.9572781373067
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-52",
+				"Bezeichnung": "Ausgang Frankfurter Str. abwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01263365843205,
+					50.9570662910071
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-53",
+				"Bezeichnung": "Ausgang Ackerstr. abwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01262525628606,
+					50.9570531749119
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-54",
+				"Bezeichnung": "Ausgang Ackerstr. aufwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96028205817917,
+					50.9356550240787
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-51",
+				"Bezeichnung": "Bushaltestelle - Unterführung",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95953795032937,
+					50.9356187213283
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-52",
+				"Bezeichnung": "Gleis 3 - Zwischenebene",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95914632616129,
+					50.9358284321775
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-53",
+				"Bezeichnung": "Ausgang Martinstr. /Gürzenich",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95951759659721,
+					50.9357410447878
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-54",
+				"Bezeichnung": "Gleis 4 - Zwischenebene",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96021415138703,
+					50.9359752423011
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-55",
+				"Bezeichnung": "Ausgang Heumarkt",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97855926158748,
+					50.939754892871
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-51",
+				"Bezeichnung": "Zwischenebene Ost- Gleis 1, Richtung Deutzer Freiheit abwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97855153699404,
+					50.9397430699114
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-52",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 1, Richtung Deutzer Freiheit aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97902968726609,
+					50.9393463743459
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-53",
+				"Bezeichnung": "Ausgang Stadthaus aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97873478549565,
+					50.9393104278454
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-54",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Koelnmesse, abwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97869923467896,
+					50.93932320805
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-55",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Koelnmesse, aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97858915387802,
+					50.9393626616208
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-56",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Suevenstr., abwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97855360298979,
+					50.939375441821
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-57",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Suevenstr., aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97846560759997,
+					50.9395136271864
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-58",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2, Richtung Deutz Technische Hochschule aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97847312102431,
+					50.939525536405
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-59",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2, Richtung Deutz Technische Hochschule abwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97733061705916,
+					50.939579712623
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-60",
+				"Bezeichnung": "Ausgang Constatinhöfe/Bussteig B",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97734647758728,
+					50.9398013944149
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-61",
+				"Bezeichnung": "Zwischenebene West - Gleis 2, Richtung Deutz Technische Hochschule aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9773411899278,
+					50.9397887468504
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-62",
+				"Bezeichnung": "Zwischenebene  West  - Gleis 2, Richtung Deutz Technische Hochschule abwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97739516711035,
+					50.939926681251
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-63",
+				"Bezeichnung": "Zwischenebene  West  - Gleis 1, Richtung Deutzer Freiheit abwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97740015203035,
+					50.9399397458395
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-64",
+				"Bezeichnung": "Zwischenebene  West  - Gleis 1, Richtung Deutzer Freiheit aufwärts",
+				"Haltestellenbereich": "802",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.98577752390706,
+					50.9364547730203
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-51",
+				"Bezeichnung": "Oberfläche zur Zwischeneben Nord",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.98592503163898,
+					50.936701799517
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-52",
+				"Bezeichnung": "Oberfläche zur Zwischeneben Süd",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.98557659970689,
+					50.9367925501803
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-53",
+				"Bezeichnung": "Zwischenebene zum Gleis Richtung Innenstadt",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.98545302649945,
+					50.9365802602367
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-54",
+				"Bezeichnung": "Zwischenebene zum Gleis stadtauswärts",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99872802516295,
+					50.9374068367839
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-51",
+				"Bezeichnung": "Ausgang Trimbornstr. aufwärts",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99878763216514,
+					50.93765920966
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-52",
+				"Bezeichnung": "Ausgang Köln Arcaden aufwärts",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99832371326958,
+					50.9376635560164
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-53",
+				"Bezeichnung": "Ausgang Köln Arcaden abwärts",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99841531797678,
+					50.9374236714376
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-54",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Kalk Kapelle",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99836937493784,
+					50.9376261887657
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-55",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Deutz Technische Hochschule",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00890341366922,
+					50.9389130072579
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-51",
+				"Bezeichnung": "Ausgang Kalker Hauptstr. Aufwärts",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00849832794603,
+					50.9386735421096
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-52",
+				"Bezeichnung": "Ausgang Kapellenstr.",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00857494453016,
+					50.9391342635874
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00859108751561,
+					50.93909546745
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-54",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0084322708184,
+					50.9387520010675
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-55",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Fuldaer Str.",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00832808425223,
+					50.9389551881459
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-56",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Kalk Post",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02140455571643,
+					50.9326964787282
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "093-51",
+				"Bezeichnung": "Fahrtrichtung Ostheim",
+				"Haltestellenbereich": "521",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02144094051655,
+					50.9328930538068
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "093-52",
+				"Bezeichnung": "Fahrtrichtung Kalk Kapelle",
+				"Haltestellenbereich": "521",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02236294734331,
+					50.9414852038817
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "095-51",
+				"Bezeichnung": "Gleis Richtung Kalker Friedhof",
+				"Haltestellenbereich": "517",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02234101179052,
+					50.9416690330974
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "095-52",
+				"Bezeichnung": "Gleis Richtung Kalk Kapelle",
+				"Haltestellenbereich": "517",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.16102591507509,
+					50.963951093031
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "100-51",
+				"Bezeichnung": "Bahnsteigebene bis Zugang Gartenstr.",
+				"Haltestellenbereich": "665",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.16130463478531,
+					50.9638719334083
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "100-52",
+				"Bezeichnung": "Ausgang Busbahnhof",
+				"Haltestellenbereich": "665",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93879807288154,
+					50.9362920219401
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-51",
+				"Bezeichnung": "Zwischenebene - Gleis 2 abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93884972487035,
+					50.9362915837807
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-52",
+				"Bezeichnung": "Zwischenebene - Gleis 2 aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93915872793946,
+					50.9364609235757
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-53",
+				"Bezeichnung": "Zwischenebene - Gleis 1 aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93921058442731,
+					50.936458850864
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-54",
+				"Bezeichnung": "Zwischenebene - Gleis 1 abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93879693729141,
+					50.9360294758651
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-55",
+				"Bezeichnung": "Ausgang Habsburgerring aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93879968429129,
+					50.9366931212523
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-56",
+				"Bezeichnung": "Ausgang Hohenzollernring aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93931496374268,
+					50.9365545207181
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-57",
+				"Bezeichnung": "Ausgang Hohenzollernring/Mittelstr. abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93931808397105,
+					50.9365880547366
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-58",
+				"Bezeichnung": "Ausgang Hohenzollernring/Mittelstr. aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93928885932653,
+					50.9361814848007
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-59",
+				"Bezeichnung": "Ausgang Habsburgerring/Hahnenstr. aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93929112895791,
+					50.9362149036512
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-60",
+				"Bezeichnung": "Ausgang Habsburgerring/Hahnenstr. abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93975603197671,
+					50.9403770387858
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-51",
+				"Bezeichnung": "Ausgang Friesenplatz Süd aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93979940496935,
+					50.940372619931
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-52",
+				"Bezeichnung": "Ausgang Friesenplatz Süd abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94003422039681,
+					50.9402886214666
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-53",
+				"Bezeichnung": "Ausgang Magnusstr. aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94007711860668,
+					50.9402838037002
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-54",
+				"Bezeichnung": "Ausgang Magnusstr. abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94023707310927,
+					50.9407250636161
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-55",
+				"Bezeichnung": "Ausgang Friesenstr. aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94021753846685,
+					50.9407273000223
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-56",
+				"Bezeichnung": "Ausgang Friesenstr. abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93990216325786,
+					50.940786074822
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-57",
+				"Bezeichnung": "Ausgang Friesenplatz Nord aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93985930389506,
+					50.9407912817643
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-58",
+				"Bezeichnung": "Ausgang Friesenplatz Nord abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94000464654516,
+					50.9406315789981
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-59",
+				"Bezeichnung": "Zwischenebene - Gleis 1 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93999080929731,
+					50.9406018452417
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-60",
+				"Bezeichnung": "Zwischenebene - Gleis 1 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93993570689882,
+					50.9404307944872
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-61",
+				"Bezeichnung": "Zwischenebene - Gleis 2 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93991863761784,
+					50.9404012264191
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-62",
+				"Bezeichnung": "Zwischenebene - Gleis 2 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94014852261089,
+					50.9403459581785
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-63",
+				"Bezeichnung": "Gleis 2 - Gleis 4 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94012885667884,
+					50.9403480441211
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-64",
+				"Bezeichnung": "Gleis 2 - Gleis 4 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93970976872711,
+					50.9403826690854
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-65",
+				"Bezeichnung": "Gleis 2 - Gleis 3 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93966778430068,
+					50.9403871415194
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-66",
+				"Bezeichnung": "Gleis 2 - Gleis 3 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93985601278866,
+					50.9407525366374
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-67",
+				"Bezeichnung": "Gleis 1 - Gleis 3 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93989966803112,
+					50.9407476266841
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-68",
+				"Bezeichnung": "Gleis 1 - Gleis 3 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94013488110286,
+					50.9406624340446
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-69",
+				"Bezeichnung": "Gleis 1 - Gleis 4 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94017821254879,
+					50.9406574362305
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-70",
+				"Bezeichnung": "Gleis 1 - Gleis 4 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93972704583198,
+					50.9402617942169
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-71",
+				"Bezeichnung": "Zwischenebene - Gleis 3",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93975042293813,
+					50.9402592497331
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-72",
+				"Bezeichnung": "Zwischenebene - Gleis 3",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94017986428014,
+					50.9407738708701
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-73",
+				"Bezeichnung": "Zwischenebene - Gleis 4",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94020464635338,
+					50.9407710098347
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-74",
+				"Bezeichnung": "Zwischenebene - Gleis 4",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9425839293164,
+					50.9446083611417
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-51",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring aufwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94259971484954,
+					50.9445964502731
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-52",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94226940616048,
+					50.9447432781433
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-53",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Friesenplatz aufwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94225206279884,
+					50.9447536252802
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-54",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Friesenplatz abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89398349980342,
+					50.9607650274833
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-51",
+				"Bezeichnung": "Ausgang Weißdornweg aufwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89381699209262,
+					50.9606379425258
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-52",
+				"Bezeichnung": "Ausgang Weißdornweg abwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89428643016445,
+					50.9605035975877
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-53",
+				"Bezeichnung": "Zwischenebene - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89429995604857,
+					50.9605140526705
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-54",
+				"Bezeichnung": "Zwischenebene - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90333454835797,
+					50.956626176953
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-51",
+				"Bezeichnung": "Zwischenebene stadteinwärts - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90335964055943,
+					50.9566542000014
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-52",
+				"Bezeichnung": "Zwischenebene stadteinwärts - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90204315775714,
+					50.9570827451293
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-53",
+				"Bezeichnung": "Zwischenebene stadtauswärts - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90355031451457,
+					50.9564902277083
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-54",
+				"Bezeichnung": "Ausgang Äußere Kanalstr. stadteinwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90365933690257,
+					50.9566220186342
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-55",
+				"Bezeichnung": "Ausgang Äußere Kanalstr. stadtauswärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90180877427518,
+					50.9572326856757
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-56",
+				"Bezeichnung": "Ausgang Rochusstr./Kapellchen stadtauswärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90169497924562,
+					50.9570858093467
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-57",
+				"Bezeichnung": "Ausgang Rochusstr./Kapellchen stadteinwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90985372048662,
+					50.9545019796117
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-51",
+				"Bezeichnung": "Zwischenebene Ost - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90982489363725,
+					50.9544665865539
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-52",
+				"Bezeichnung": "Zwischenebene Ost - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90850627612233,
+					50.9549263249603
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-53",
+				"Bezeichnung": "Zwischenebene West - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90970643655503,
+					50.9543937817474
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-54",
+				"Bezeichnung": "Ausgang Leyendeckerstr.",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91019396616395,
+					50.9544288381711
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-55",
+				"Bezeichnung": "Ausgang Hospeltstr.",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90814463495113,
+					50.9549730400254
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-56",
+				"Bezeichnung": "Ausgang Richtung Gumprechtstraße",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91556292905739,
+					50.9512005994332
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-51",
+				"Bezeichnung": "Ausgang Bf. Ehrenfeld abwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91557210333098,
+					50.951165470608
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-52",
+				"Bezeichnung": "Ausgang Bf. Ehrenfeld aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91543231726332,
+					50.95104608051
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-53",
+				"Bezeichnung": "Zwischenebene Nord - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91539848927969,
+					50.9510252180893
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-54",
+				"Bezeichnung": "Zwischenebene Nord - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91638447147831,
+					50.950339170767
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-55",
+				"Bezeichnung": "Ausgang Venloer Str./Helioshaus",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91649651072498,
+					50.9500972061083
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-56",
+				"Bezeichnung": "Zwischenebene - Gleis 3 aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91667689803521,
+					50.9500146573485
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-57",
+				"Bezeichnung": "Zwischenebene - Gleis 4 aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91701889380334,
+					50.9500798400486
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-58",
+				"Bezeichnung": "Ausgang Venloer Str. Süd",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91650287569853,
+					50.9503476033393
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-59",
+				"Bezeichnung": "Zwischenebene Süd - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91648520436184,
+					50.9503367048967
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-60",
+				"Bezeichnung": "Zwischenebene Süd - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92010583404398,
+					50.9484676792796
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-51",
+				"Bezeichnung": "Ausgang Klarastr.",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92069370672565,
+					50.9481096107078
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-52",
+				"Bezeichnung": "Ausgang Geisselstr.",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92048022572735,
+					50.948257036645
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-53",
+				"Bezeichnung": "Gleisebene - Zwischenebene",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92046817864727,
+					50.948245745941
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-54",
+				"Bezeichnung": "Zwischenebene - Gleisebene",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92566751300716,
+					50.946143292944
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-51",
+				"Bezeichnung": "Ausgang Piusstr.",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92613437283176,
+					50.9458277580505
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-52",
+				"Bezeichnung": "Ausgang Fuchsstraße",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92601994488432,
+					50.9459221587796
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-53",
+				"Bezeichnung": "Zwischenebene - Gleisebene",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92603168155108,
+					50.9459329875659
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-54",
+				"Bezeichnung": "Gleisebene - Zwischenebene",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9329362064101,
+					50.9436503225908
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-51",
+				"Bezeichnung": "Ausgang Hans-Böckler-Platz abwärts",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93296127855104,
+					50.9436734715755
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-52",
+				"Bezeichnung": "Ausgang Hans-Böckler-Platz aufwärts",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93302145175285,
+					50.943605240603
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-53",
+				"Bezeichnung": "Zwischenebene - Gleis 2",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93299534094542,
+					50.9435804439516
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-54",
+				"Bezeichnung": "Zwischenebene - Gleis 2",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93291049207009,
+					50.9434975375718
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-55",
+				"Bezeichnung": "Zwischenebene - Gleis 1",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9328852562476,
+					50.9434732573158
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-56",
+				"Bezeichnung": "Zwischenebene - Gleis 1",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93257334834126,
+					50.9435877336534
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-57",
+				"Bezeichnung": "Ausgang Venloer Str./Grüngürtel",
+				"Haltestellenbereich": "867",
+				"Info": null
+			}
+		}
+	]
+}

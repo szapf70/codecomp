@@ -1,0 +1,136 @@
+Loesungen
+=================================
+ Leicht
+=================================
+Leicht - 1:
+Wie viele Linien (Busse und Bahnen) und wie viele Haltestellenbereiche gibt es insgesamt?
+
+Linien gesamt: 78
+Haltestellenbereiche: 911
+=================================
+Leicht - 2:
+Welcher Haltestellenbereich hat die meisten Haltestellen und an welchem Treffen sich die meisten Linien?
+
+Haltestellenbereich mit meisten Haltestellen: Bereich 385, Chorweiler, 17 Haltestellen
+Haltestellenbereich mit meisten Linien: Bereich 570, Mülheim Wiener Platz, 11 Haltestellen
+=================================
+Leicht - 3:
+Wieviel Haltestellenbereiche decken jeweils die Betriebsbereich „BUS“, „STRAB“ oder beides ab?
+
+keine:0
+Bus: 885
+Strassenbahn: 231
+Beide: 205
+=================================
+Leicht - 4:
+Bestimme den noerdlichsten, westlichsten, suedlichsten und oestlichsten Haltstellenbereich. Wie kann man die Position eines Haltestellenbereichs berechnen?
+
+Nord: Worringen Hafen          [6.86121, 51.06927]
+Sued: Olof-Palme-Allee         [7.132506, 50.705547]
+Ost:  Bensberg                 [7.16196, 50.96347] 
+West: Frechen-Benzelrath       [6.79765, 50.90436] 
+=================================
+ Mittel 
+=================================
+Mittel - 1:
+Welche beiden Linien haben die größte Anzahl gemeinsamer Stationen?
+
+Linien mit den meisten gemeinsamen Stationen:('151', '152') Stationen: 44
+Linien mit den zweitmeisten gemeinsamen Stationen:('131', '134') Stationen: 21
+=================================
+Mittel - 2:
+Welche Linie ist an all ihren Haltestellen prozentual am besten mit digitalen Fahrgastinformationsanzeigen ausgestattet? Das gleiche auch fuer Fahrtreppen und Aufzuege.
+
+Linie 163 hat die meisten Haltestellen mit Digitalenfahrgastinformation. Und zwar an 1 Haltestellen, was 100.00 % entspricht
+Linie 4 hat die meisten Aufzuege. Und zwar 12 Aufzuege, was 41.38 % entspricht
+Linie 4 hat die meisten Fahrtreppen. Und zwar 13 Fahrtreppen, was 44.83 % entspricht
+=================================
+Mittel - 3:
+Der Koelner weiss das eine zweistellige Nummer eine Strassenbahn und eine dreistellige Nummer ein Bus ist. Aber koennte man diese Information auch aus den Daten ziehen? Direkt angegeben ist es nicht.
+
+Alle drei-stelligen Linien werden von {'BUS'} angefahren. Alle ein- und zwei-stelligen Linien werden von {'STRAB'} angefahren
+=================================
+Mittel - 4:
+Liste alle Strassenbahnlinien jeweils mit allen Strassenbahnlinien in die man auf ihrem Weg direkt umsteigen kann auf.
+
+Linie 1     kann auf 10   Linien umsteigen.Linien: [3, 4, 5, 7, 9, 12, 13, 15, 16, 18]. 
+Linie 3     kann auf 11   Linien umsteigen.Linien: [1, 4, 5, 7, 9, 12, 13, 15, 16, 17, 18]. 
+Linie 4     kann auf 11   Linien umsteigen.Linien: [1, 3, 5, 7, 9, 12, 13, 15, 16, 17, 18]. 
+Linie 5     kann auf 10   Linien umsteigen.Linien: [1, 3, 4, 7, 9, 12, 13, 15, 16, 18]. 
+Linie 7     kann auf 10   Linien umsteigen.Linien: [1, 3, 4, 5, 9, 12, 13, 15, 16, 18]. 
+Linie 9     kann auf 10   Linien umsteigen.Linien: [1, 3, 4, 5, 7, 12, 13, 15, 16, 18]. 
+Linie 12    kann auf 10   Linien umsteigen.Linien: [1, 3, 4, 5, 7, 9, 13, 15, 16, 18]. 
+Linie 13    kann auf 10   Linien umsteigen.Linien: [1, 3, 4, 5, 7, 9, 12, 15, 16, 18]. 
+Linie 15    kann auf 11   Linien umsteigen.Linien: [1, 3, 4, 5, 7, 9, 12, 13, 16, 17, 18]. 
+Linie 16    kann auf 11   Linien umsteigen.Linien: [1, 3, 4, 5, 7, 9, 12, 13, 15, 17, 18]. 
+Linie 17    kann auf 4    Linien umsteigen.Linien: [3, 4, 15, 16]. 
+Linie 18    kann auf 10   Linien umsteigen.Linien: [1, 3, 4, 5, 7, 9, 12, 13, 15, 16]. 
+=================================
+Mittel - 5:
+Haben alle Strassenbahnlinien mindestens ein Kundencenter an einer ihrer Haltestellen? Und von welchen Linien ohne Kundencenter kann man mit einmal Umsteigen in eine andere Linie zu einem Kundencenter gelangen.
+
+Strassenbahnlinien mit einem Kundencenter an der Station: ['1', '3', '4', '5', '7', '9', '13', '15', '16', '17', '18']
+Strassenbahnlinien ohne ein Kundencenter an der Station:['12']
+Wie in Aufgabe Mittel - 4  beschrieben kann Linie ['12'] auf die entsprechenden Linien mit Kundencenter Umsteigen
+=================================
+ Schwer
+=================================
+Schwer - 1a:
+Suche fuer eine eingegebene Position: Die naechste Strassenbahnhaltestelle
+
+Position: [50.94122, 6.95671]
+Die naeheste Station ist Dom/Hbf in 63.66 m.
+GPS: Lat/Lon: 50.94179 / 6.95671
+=================================
+Schwer - 1b:
+Die naechste Strassenbahnhaltestelle mit Fahrtreppen (Stoerung?)
+
+Position: 50.94122 / 6.95671
+Die naeheste Station mit Fahrtreppen ist Dom/Hbf in 63.66 m.
+Defekte Fahrtreppen: 0 von 8
+GPS: Lat/Lon: 50.94179 / 6.95671
+=================================
+Schwer - 1c:
+Die naechste Strassenbahnhaltestelle mit Aufzuegen (Stoerung?)
+
+Position: 50.94122 / 6.95671
+Die naeheste Station mit Aufzuegen ist Dom/Hbf in 63.66 m.
+Defekte Fahrtreppen: 1 von 8
+GPS: Lat/Lon: 50.94179 / 6.95671
+=================================
+Schwer - 2:
+Koennte man das anhand der Vorgabe einer der beiden Endhaltestellen und den „Entfernungen“ der Haltestellen durch ihre Koordinaten berechnen.
+
+Alle Stationen fuer Linie 7 in der Reihenfolge des kuerzesten Abstandes zu einander:
+Haltestelle: 7                              Koordinaten:50.90419,6.79735
+Haltestelle: Frechen-Benzelrath             Koordinaten:50.90419,6.79735
+Haltestelle: Mühlengasse                    Koordinaten:50.9082,6.80186
+Haltestelle: Frechen Rathaus                Koordinaten:50.9094,6.80591
+Haltestelle: Frechen Kirche                 Koordinaten:50.91008,6.81582
+Haltestelle: Frechen Bf                     Koordinaten:50.91154,6.82304
+Haltestelle: Haus Vorst                     Koordinaten:50.91572,6.8486
+Haltestelle: Marsdorf                       Koordinaten:50.91752,6.85818
+Haltestelle: Stüttgenhof                    Koordinaten:50.92007,6.87718
+Haltestelle: Brahmsstr.                     Koordinaten:50.92598,6.89831
+Haltestelle: Dürener Str./Gürtel            Koordinaten:50.92835,6.90923
+Haltestelle: Wüllnerstr.                    Koordinaten:50.93118,6.90802
+Haltestelle: Melaten                        Koordinaten:50.93676,6.91649
+Haltestelle: Universitätsstr.               Koordinaten:50.93649,6.92424
+Haltestelle: Moltkestr.                     Koordinaten:50.936,6.9325
+Haltestelle: Rudolfplatz                    Koordinaten:50.93611,6.93964
+Haltestelle: Neumarkt                       Koordinaten:50.93588,6.94781
+Haltestelle: Heumarkt                       Koordinaten:50.93529,6.95937
+Haltestelle: Severinsbrücke                 Koordinaten:50.93094,6.97207
+Haltestelle: Drehbrücke                     Koordinaten:50.92842,6.97504
+Haltestelle: Poller Kirchweg                Koordinaten:50.9238,6.97989
+Haltestelle: Raiffeisenstr.                 Koordinaten:50.91983,6.98625
+Haltestelle: Poll Salmstr.                  Koordinaten:50.91602,6.99327
+Haltestelle: Poll Baumschulenweg            Koordinaten:50.91442,6.99864
+Haltestelle: Westhoven Kölner Str.          Koordinaten:50.90612,7.01631
+Haltestelle: Westhoven Berliner Str.        Koordinaten:50.90172,7.0255
+Haltestelle: Ensen Gilgaustr.               Koordinaten:50.89969,7.03126
+Haltestelle: Ensen Kloster                  Koordinaten:50.89667,7.04525
+Haltestelle: Porz Steinstr.                 Koordinaten:50.89155,7.05628
+Haltestelle: Porz Markt                     Koordinaten:50.8849,7.05918
+Haltestelle: Rosenhügel                     Koordinaten:50.87417,7.06005
+Haltestelle: Zündorf                        Koordinaten:50.86601,7.04909
