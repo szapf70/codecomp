@@ -1,0 +1,1354 @@
+{
+    "1": [
+        [
+            "WEW",
+            "Weiden West"
+        ],
+        [
+            "WNS",
+            "Weiden R\u00f6mergrab"
+        ],
+        [
+            "WRB",
+            "Weiden Zentrum"
+        ],
+        [
+            "BAH",
+            "Bahnstr."
+        ],
+        [
+            "MWG",
+            "Mohnweg"
+        ],
+        [
+            "JUK",
+            "Junkersdorf"
+        ],
+        [
+            "STD",
+            "RheinEnergieSTADION"
+        ],
+        [
+            "MGD",
+            "Alter Milit\u00e4rring"
+        ],
+        [
+            "EUP",
+            "Eupener Str."
+        ],
+        [
+            "CBS",
+            "Clarenbachstift"
+        ],
+        [
+            "MAA",
+            "Maarweg"
+        ],
+        [
+            "ASG",
+            "Aachener Str./G\u00fcrtel"
+        ],
+        [
+            "MEL",
+            "Melaten"
+        ],
+        [
+            "UNV",
+            "Universit\u00e4tsstr."
+        ],
+        [
+            "MOL",
+            "Moltkestr."
+        ],
+        [
+            "RDP",
+            "Rudolfplatz"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "HMG",
+            "Heumarkt"
+        ],
+        [
+            "DZF",
+            "Deutzer Freiheit"
+        ],
+        [
+            "BDM",
+            "Bf Deutz/Messe"
+        ],
+        [
+            "DZB",
+            "Deutz Technische Hochschule"
+        ],
+        [
+            "KPO",
+            "Kalk Post"
+        ],
+        [
+            "KKP",
+            "Kalk Kapelle"
+        ],
+        [
+            "FDS",
+            "Fuldaer Str."
+        ],
+        [
+            "HFR",
+            "Sportpark H\u00f6henberg"
+        ],
+        [
+            "KAF",
+            "Kalker Friedhof"
+        ],
+        [
+            "MRH",
+            "Merheim"
+        ],
+        [
+            "FLE",
+            "Flehbachstr."
+        ],
+        [
+            "BMP",
+            "Br\u00fcck Mauspfad"
+        ],
+        [
+            "LUS",
+            "Lustheide"
+        ],
+        [
+            "RFR",
+            "Refrath"
+        ],
+        [
+            "KIP",
+            "Kippekausen"
+        ],
+        [
+            "FKF",
+            "Frankenforst"
+        ],
+        [
+            "NEW",
+            "Neuenweg"
+        ],
+        [
+            "KNS",
+            "K\u00f6lner Str."
+        ],
+        [
+            "IHK",
+            "Im Hoppenkamp"
+        ],
+        [
+            "BSB",
+            "Bensberg"
+        ]
+    ],
+    "3": [
+        [
+            "MEN",
+            "G\u00f6rlinger-Zentrum"
+        ],
+        [
+            "OHR",
+            "Ollenhauerring"
+        ],
+        [
+            "SRG",
+            "Schaffrathsgasse"
+        ],
+        [
+            "BOC",
+            "Bocklem\u00fcnd"
+        ],
+        [
+            "WSF",
+            "Westfriedhof"
+        ],
+        [
+            "WOF",
+            "Wolffsohnstr."
+        ],
+        [
+            "AKA",
+            "Akazienweg"
+        ],
+        [
+            "BIK",
+            "Rochusplatz"
+        ],
+        [
+            "LEY",
+            "Leyendeckerstr."
+        ],
+        [
+            "VSG",
+            "Venloer Str./G\u00fcrtel"
+        ],
+        [
+            "KOR",
+            "K\u00f6rnerstr."
+        ],
+        [
+            "PIU",
+            "Piusstr."
+        ],
+        [
+            "HBP",
+            "Hans-B\u00f6ckler-Platz/Bf West"
+        ],
+        [
+            "FSP",
+            "Friesenplatz"
+        ],
+        [
+            "APB",
+            "Appellhofplatz"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "PSS",
+            "Poststr."
+        ],
+        [
+            "SEV",
+            "Severinstr."
+        ],
+        [
+            "SVS",
+            "Suevenstr."
+        ],
+        [
+            "BDK",
+            "Bf Deutz/LANXESS arena"
+        ],
+        [
+            "MSO",
+            "Koelnmesse"
+        ],
+        [
+            "STE",
+            "Stegerwaldsiedlung"
+        ],
+        [
+            "WDK",
+            "Buchforst Waldecker Str."
+        ],
+        [
+            "BUC",
+            "Buchheim Frankfurter Str."
+        ],
+        [
+            "BHE",
+            "Buchheim Herler Str."
+        ],
+        [
+            "WIC",
+            "Wichheimer Str."
+        ],
+        [
+            "VRS",
+            "Holweide Vischeringstr."
+        ],
+        [
+            "MHS",
+            "Maria-Himmelfahrt-Str."
+        ],
+        [
+            "NFS",
+            "Neufelder Str."
+        ],
+        [
+            "DMP",
+            "Dellbr\u00fcck Mauspfad"
+        ],
+        [
+            "DHS",
+            "Dellbr\u00fcck Hauptstr."
+        ],
+        [
+            "THB",
+            "Thielenbruch"
+        ]
+    ],
+    "4": [
+        [
+            "BOC",
+            "Bocklem\u00fcnd"
+        ],
+        [
+            "WSF",
+            "Westfriedhof"
+        ],
+        [
+            "WOF",
+            "Wolffsohnstr."
+        ],
+        [
+            "AKA",
+            "Akazienweg"
+        ],
+        [
+            "BIK",
+            "Rochusplatz"
+        ],
+        [
+            "LEY",
+            "Leyendeckerstr."
+        ],
+        [
+            "VSG",
+            "Venloer Str./G\u00fcrtel"
+        ],
+        [
+            "KOR",
+            "K\u00f6rnerstr."
+        ],
+        [
+            "PIU",
+            "Piusstr."
+        ],
+        [
+            "HBP",
+            "Hans-B\u00f6ckler-Platz/Bf West"
+        ],
+        [
+            "FSP",
+            "Friesenplatz"
+        ],
+        [
+            "APB",
+            "Appellhofplatz"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "PSS",
+            "Poststr."
+        ],
+        [
+            "SEV",
+            "Severinstr."
+        ],
+        [
+            "SVS",
+            "Suevenstr."
+        ],
+        [
+            "BDK",
+            "Bf Deutz/LANXESS arena"
+        ],
+        [
+            "MSO",
+            "Koelnmesse"
+        ],
+        [
+            "STE",
+            "Stegerwaldsiedlung"
+        ],
+        [
+            "GRU",
+            "Gr\u00fcnstr."
+        ],
+        [
+            "WPL",
+            "M\u00fclheim Wiener Platz"
+        ],
+        [
+            "KEU",
+            "Keupstr."
+        ],
+        [
+            "VSS",
+            "Von-Sparr-Str."
+        ],
+        [
+            "MBA",
+            "M\u00fclheim Berliner Str."
+        ],
+        [
+            "IMW",
+            "Im Weidenbruch"
+        ],
+        [
+            "AEB",
+            "Am Emberg"
+        ],
+        [
+            "LEU",
+            "Leuchterstr."
+        ],
+        [
+            "ODS",
+            "Odenthaler Str."
+        ],
+        [
+            "SLB",
+            "Schlebusch"
+        ]
+    ],
+    "5": [
+        [
+            "KPS",
+            "Sparkasse Am Butzweilerhof"
+        ],
+        [
+            "IAK",
+            "IKEA Am Butzweilerhof"
+        ],
+        [
+            "KOE",
+            "Alter Flughafen Butzweilerhof"
+        ],
+        [
+            "RKL",
+            "Rektor-Klein-Str."
+        ],
+        [
+            "MAR",
+            "Margaretastr."
+        ],
+        [
+            "ILT",
+            "Iltisstr."
+        ],
+        [
+            "LEN",
+            "Lenauplatz"
+        ],
+        [
+            "NBS",
+            "Nu\u00dfbaumerstr."
+        ],
+        [
+            "SSG",
+            "Subbelrather Str./G\u00fcrtel"
+        ],
+        [
+            "LIE",
+            "Liebigstr."
+        ],
+        [
+            "GUT",
+            "Gutenbergstr."
+        ],
+        [
+            "HBP",
+            "Hans-B\u00f6ckler-Platz/Bf West"
+        ],
+        [
+            "FSP",
+            "Friesenplatz"
+        ],
+        [
+            "APB",
+            "Appellhofplatz"
+        ],
+        [
+            "DOM",
+            "Dom/Hbf"
+        ],
+        [
+            "RAT",
+            "Rathaus"
+        ],
+        [
+            "HMG",
+            "Heumarkt"
+        ]
+    ],
+    "7": [
+        [
+            "BZT",
+            "Frechen-Benzelrath"
+        ],
+        [
+            "MHG",
+            "M\u00fchlengasse"
+        ],
+        [
+            "FRR",
+            "Frechen Rathaus"
+        ],
+        [
+            "FRK",
+            "Frechen Kirche"
+        ],
+        [
+            "FRB",
+            "Frechen Bf"
+        ],
+        [
+            "HVO",
+            "Haus Vorst"
+        ],
+        [
+            "MAD",
+            "Marsdorf"
+        ],
+        [
+            "SGH",
+            "St\u00fcttgenhof"
+        ],
+        [
+            "BRA",
+            "Brahmsstr."
+        ],
+        [
+            "DSG",
+            "D\u00fcrener Str./G\u00fcrtel"
+        ],
+        [
+            "WUE",
+            "W\u00fcllnerstr."
+        ],
+        [
+            "ASG",
+            "Aachener Str./G\u00fcrtel"
+        ],
+        [
+            "MEL",
+            "Melaten"
+        ],
+        [
+            "UNV",
+            "Universit\u00e4tsstr."
+        ],
+        [
+            "MOL",
+            "Moltkestr."
+        ],
+        [
+            "RDP",
+            "Rudolfplatz"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "HMG",
+            "Heumarkt"
+        ],
+        [
+            "DZF",
+            "Deutzer Freiheit"
+        ],
+        [
+            "SVB",
+            "Severinsbr\u00fccke"
+        ],
+        [
+            "DRE",
+            "Drehbr\u00fccke"
+        ],
+        [
+            "PKI",
+            "Poller Kirchweg"
+        ],
+        [
+            "RAI",
+            "Raiffeisenstr."
+        ],
+        [
+            "POS",
+            "Poll Salmstr."
+        ],
+        [
+            "PAB",
+            "Poll Baumschulenweg"
+        ],
+        [
+            "WKS",
+            "Westhoven K\u00f6lner Str."
+        ],
+        [
+            "WBS",
+            "Westhoven Berliner Str."
+        ],
+        [
+            "EGI",
+            "Ensen Gilgaustr."
+        ],
+        [
+            "EKL",
+            "Ensen Kloster"
+        ],
+        [
+            "PST",
+            "Porz Steinstr."
+        ],
+        [
+            "PZM",
+            "Porz Markt"
+        ],
+        [
+            "RSH",
+            "Rosenh\u00fcgel"
+        ],
+        [
+            "ZDF",
+            "Z\u00fcndorf"
+        ]
+    ],
+    "9": [
+        [
+            "SHP",
+            "S\u00fclz Hermeskeiler Platz"
+        ],
+        [
+            "MOM",
+            "Mommsenstr."
+        ],
+        [
+            "ZPG",
+            "Z\u00fclpicher Str./G\u00fcrtel"
+        ],
+        [
+            "LIN",
+            "Lindenburg"
+        ],
+        [
+            "WEY",
+            "Weyertal"
+        ],
+        [
+            "UNI",
+            "Universit\u00e4t"
+        ],
+        [
+            "DBS",
+            "Dasselstr./Bf S\u00fcd"
+        ],
+        [
+            "ZPL",
+            "Z\u00fclpicher Platz"
+        ],
+        [
+            "MAK",
+            "Mauritiuskirche"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "HMG",
+            "Heumarkt"
+        ],
+        [
+            "DZF",
+            "Deutzer Freiheit"
+        ],
+        [
+            "BDM",
+            "Bf Deutz/Messe"
+        ],
+        [
+            "DZB",
+            "Deutz Technische Hochschule"
+        ],
+        [
+            "KPO",
+            "Kalk Post"
+        ],
+        [
+            "KKP",
+            "Kalk Kapelle"
+        ],
+        [
+            "VGT",
+            "Vingst"
+        ],
+        [
+            "OSH",
+            "Ostheim"
+        ],
+        [
+            "AUT",
+            "Autobahn"
+        ],
+        [
+            "SWG",
+            "Steinweg"
+        ],
+        [
+            "POZ",
+            "Porzer Str."
+        ],
+        [
+            "RHM",
+            "Rath/Heumar"
+        ],
+        [
+            "ROE",
+            "R\u00f6ttgensweg"
+        ],
+        [
+            "KGF",
+            "K\u00f6nigsforst"
+        ]
+    ],
+    "12": [
+        [
+            "HGW",
+            "Zollstockg\u00fcrtel"
+        ],
+        [
+            "GOW",
+            "Gottesweg"
+        ],
+        [
+            "HTH",
+            "Herthastr."
+        ],
+        [
+            "POH",
+            "Pohligstr."
+        ],
+        [
+            "EIF",
+            "Eifelplatz"
+        ],
+        [
+            "EFS",
+            "Eifelstr."
+        ],
+        [
+            "BAB",
+            "Barbarossaplatz"
+        ],
+        [
+            "ZPL",
+            "Z\u00fclpicher Platz"
+        ],
+        [
+            "RDP",
+            "Rudolfplatz"
+        ],
+        [
+            "FSP",
+            "Friesenplatz"
+        ],
+        [
+            "CPH",
+            "Christophstr./Mediapark"
+        ],
+        [
+            "HSR",
+            "Hansaring"
+        ],
+        [
+            "EBP",
+            "Ebertplatz"
+        ],
+        [
+            "LOH",
+            "Lohsestr."
+        ],
+        [
+            "FLO",
+            "Florastr."
+        ],
+        [
+            "NSG",
+            "Neusser Str./G\u00fcrtel"
+        ],
+        [
+            "MOW",
+            "Mollwitzstr."
+        ],
+        [
+            "SCE",
+            "Scheibenstr."
+        ],
+        [
+            "WSS",
+            "Wilhelm-Sollmann-Str."
+        ],
+        [
+            "NIL",
+            "Niehl Nord"
+        ],
+        [
+            "GEE",
+            "Geestem\u00fcnder Str."
+        ],
+        [
+            "FWS",
+            "Fordwerke S\u00fcd"
+        ],
+        [
+            "FWM",
+            "Fordwerke Mitte"
+        ],
+        [
+            "FWN",
+            "Fordwerke Nord"
+        ],
+        [
+            "MEM",
+            "Merkenich Mitte"
+        ],
+        [
+            "MEK",
+            "Merkenich"
+        ]
+    ],
+    "13": [
+        [
+            "SZG",
+            "S\u00fclzg\u00fcrtel"
+        ],
+        [
+            "BRG",
+            "Berrenrather Str./G\u00fcrtel"
+        ],
+        [
+            "EUS",
+            "Euskirchener Str."
+        ],
+        [
+            "ZPG",
+            "Z\u00fclpicher Str./G\u00fcrtel"
+        ],
+        [
+            "GSG",
+            "Gleueler Str./G\u00fcrtel"
+        ],
+        [
+            "DSG",
+            "D\u00fcrener Str./G\u00fcrtel"
+        ],
+        [
+            "WUE",
+            "W\u00fcllnerstr."
+        ],
+        [
+            "ASG",
+            "Aachener Str./G\u00fcrtel"
+        ],
+        [
+            "OJS",
+            "Melateng\u00fcrtel"
+        ],
+        [
+            "MLG",
+            "Weinsbergstr./G\u00fcrtel"
+        ],
+        [
+            "VSG",
+            "Venloer Str./G\u00fcrtel"
+        ],
+        [
+            "SSG",
+            "Subbelrather Str./G\u00fcrtel"
+        ],
+        [
+            "NBS",
+            "Nu\u00dfbaumerstr."
+        ],
+        [
+            "ECH",
+            "Escher Str."
+        ],
+        [
+            "GSP",
+            "Geldernstr./Parkg\u00fcrtel"
+        ],
+        [
+            "NSG",
+            "Neusser Str./G\u00fcrtel"
+        ],
+        [
+            "AMG",
+            "Amsterdamer Str./G\u00fcrtel"
+        ],
+        [
+            "SLA",
+            "Slabystr."
+        ],
+        [
+            "WPL",
+            "M\u00fclheim Wiener Platz"
+        ],
+        [
+            "BFM",
+            "Bf M\u00fclheim"
+        ],
+        [
+            "BHE",
+            "Buchheim Herler Str."
+        ],
+        [
+            "WIC",
+            "Wichheimer Str."
+        ],
+        [
+            "VRS",
+            "Holweide Vischeringstr."
+        ]
+    ],
+    "15": [
+        [
+            "CHW",
+            "Chorweiler"
+        ],
+        [
+            "HEI",
+            "Heimersdorf"
+        ],
+        [
+            "LGR",
+            "Longerich Friedhof"
+        ],
+        [
+            "LGS",
+            "Longericher Str."
+        ],
+        [
+            "MEE",
+            "Meerfeldstr."
+        ],
+        [
+            "HFD",
+            "Herforder Str."
+        ],
+        [
+            "ATP",
+            "Altonaer Platz"
+        ],
+        [
+            "WSS",
+            "Wilhelm-Sollmann-Str."
+        ],
+        [
+            "SCE",
+            "Scheibenstr."
+        ],
+        [
+            "MOW",
+            "Mollwitzstr."
+        ],
+        [
+            "NSG",
+            "Neusser Str./G\u00fcrtel"
+        ],
+        [
+            "FLO",
+            "Florastr."
+        ],
+        [
+            "LOH",
+            "Lohsestr."
+        ],
+        [
+            "EBP",
+            "Ebertplatz"
+        ],
+        [
+            "HSR",
+            "Hansaring"
+        ],
+        [
+            "CPH",
+            "Christophstr./Mediapark"
+        ],
+        [
+            "FSP",
+            "Friesenplatz"
+        ],
+        [
+            "RDP",
+            "Rudolfplatz"
+        ],
+        [
+            "ZPL",
+            "Z\u00fclpicher Platz"
+        ],
+        [
+            "BAB",
+            "Barbarossaplatz"
+        ],
+        [
+            "EFS",
+            "Eifelstr."
+        ],
+        [
+            "ULR",
+            "Ulrepforte"
+        ],
+        [
+            "CWP",
+            "Chlodwigplatz"
+        ],
+        [
+            "UBI",
+            "Ubierring"
+        ]
+    ],
+    "16": [
+        [
+            "NIS",
+            "Niehl Sebastianstr."
+        ],
+        [
+            "NRO",
+            "Nesselrodestr."
+        ],
+        [
+            "AMG",
+            "Amsterdamer Str./G\u00fcrtel"
+        ],
+        [
+            "KKR",
+            "Kinderkrankenhaus"
+        ],
+        [
+            "RPP",
+            "Reichenspergerplatz"
+        ],
+        [
+            "EBP",
+            "Ebertplatz"
+        ],
+        [
+            "BRE",
+            "Breslauer Platz/Hbf"
+        ],
+        [
+            "DOM",
+            "Dom/Hbf"
+        ],
+        [
+            "APB",
+            "Appellhofplatz"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "PSS",
+            "Poststr."
+        ],
+        [
+            "BAB",
+            "Barbarossaplatz"
+        ],
+        [
+            "EFS",
+            "Eifelstr."
+        ],
+        [
+            "ULR",
+            "Ulrepforte"
+        ],
+        [
+            "CWP",
+            "Chlodwigplatz"
+        ],
+        [
+            "UBI",
+            "Ubierring"
+        ],
+        [
+            "SHS",
+            "Sch\u00f6nhauser Str."
+        ],
+        [
+            "OBU",
+            "Bayenthalg\u00fcrtel"
+        ],
+        [
+            "HLU",
+            "Heinrich-L\u00fcbke-Ufer"
+        ],
+        [
+            "BRK",
+            "Rodenkirchen Bf"
+        ],
+        [
+            "SGS",
+            "Siegstr."
+        ],
+        [
+            "MIC",
+            "Michaelshoven"
+        ],
+        [
+            "SUT",
+            "S\u00fcrth Bf"
+        ],
+        [
+            "BFG",
+            "Godorf Bf"
+        ],
+        [
+            "WEN",
+            "Wesseling Nord"
+        ],
+        [
+            "WES",
+            "Wesseling"
+        ],
+        [
+            "WSU",
+            "Wesseling S\u00fcd"
+        ],
+        [
+            "URF",
+            "Urfeld"
+        ],
+        [
+            "WDG",
+            "Widdig"
+        ],
+        [
+            "UED",
+            "Uedorf"
+        ],
+        [
+            "HRS",
+            "Hersel"
+        ]
+    ],
+    "17": [
+        [
+            "SEV",
+            "Severinstr."
+        ],
+        [
+            "KAT",
+            "Kart\u00e4userhof"
+        ],
+        [
+            "CWP",
+            "Chlodwigplatz"
+        ],
+        [
+            "ABW",
+            "Bonner Wall"
+        ],
+        [
+            "SHS",
+            "Sch\u00f6nhauser Str."
+        ],
+        [
+            "OBU",
+            "Bayenthalg\u00fcrtel"
+        ],
+        [
+            "HLU",
+            "Heinrich-L\u00fcbke-Ufer"
+        ],
+        [
+            "BRK",
+            "Rodenkirchen Bf"
+        ],
+        [
+            "SGS",
+            "Siegstr."
+        ],
+        [
+            "MIC",
+            "Michaelshoven"
+        ],
+        [
+            "SUT",
+            "S\u00fcrth Bf"
+        ]
+    ],
+    "18": [
+        [
+            "THB",
+            "Thielenbruch"
+        ],
+        [
+            "DHS",
+            "Dellbr\u00fcck Hauptstr."
+        ],
+        [
+            "DMP",
+            "Dellbr\u00fcck Mauspfad"
+        ],
+        [
+            "NFS",
+            "Neufelder Str."
+        ],
+        [
+            "MHS",
+            "Maria-Himmelfahrt-Str."
+        ],
+        [
+            "VRS",
+            "Holweide Vischeringstr."
+        ],
+        [
+            "WIC",
+            "Wichheimer Str."
+        ],
+        [
+            "BHE",
+            "Buchheim Herler Str."
+        ],
+        [
+            "BFM",
+            "Bf M\u00fclheim"
+        ],
+        [
+            "WPL",
+            "M\u00fclheim Wiener Platz"
+        ],
+        [
+            "SLA",
+            "Slabystr."
+        ],
+        [
+            "BOT",
+            "Boltensternstr."
+        ],
+        [
+            "ZOO",
+            "Zoo/Flora"
+        ],
+        [
+            "RPP",
+            "Reichenspergerplatz"
+        ],
+        [
+            "EBP",
+            "Ebertplatz"
+        ],
+        [
+            "BRE",
+            "Breslauer Platz/Hbf"
+        ],
+        [
+            "DOM",
+            "Dom/Hbf"
+        ],
+        [
+            "APB",
+            "Appellhofplatz"
+        ],
+        [
+            "NEU",
+            "Neumarkt"
+        ],
+        [
+            "PSS",
+            "Poststr."
+        ],
+        [
+            "BAB",
+            "Barbarossaplatz"
+        ],
+        [
+            "EFW",
+            "Eifelwall/Stadtarchiv"
+        ],
+        [
+            "WEH",
+            "Wei\u00dfhausstr."
+        ],
+        [
+            "ANU",
+            "Arnulfstr."
+        ],
+        [
+            "SBU",
+            "S\u00fclzburgstr."
+        ],
+        [
+            "SZG",
+            "S\u00fclzg\u00fcrtel"
+        ],
+        [
+            "KLB",
+            "Klettenbergpark"
+        ],
+        [
+            "EFR",
+            "Efferen"
+        ],
+        [
+            "KIB",
+            "Kiebitzweg"
+        ],
+        [
+            "HHB",
+            "H\u00fcrth-Herm\u00fclheim"
+        ],
+        [
+            "FIB",
+            "Fischenich"
+        ],
+        [
+            "VOC",
+            "Br\u00fchl Vochem"
+        ],
+        [
+            "BNO",
+            "Br\u00fchl Nord"
+        ],
+        [
+            "BRM",
+            "Br\u00fchl Mitte"
+        ],
+        [
+            "BRS",
+            "Br\u00fchl S\u00fcd"
+        ],
+        [
+            "BDO",
+            "Badorf"
+        ],
+        [
+            "SWA",
+            "Schwadorf"
+        ],
+        [
+            "WBB",
+            "Walberberg"
+        ],
+        [
+            "MEB",
+            "Merten"
+        ],
+        [
+            "WAB",
+            "Waldorf"
+        ],
+        [
+            "DER",
+            "Dersdorf"
+        ],
+        [
+            "BOR",
+            "Bornheim"
+        ],
+        [
+            "BHR",
+            "Bornheim Rathaus"
+        ],
+        [
+            "ROI",
+            "Roisdorf West"
+        ],
+        [
+            "ALF",
+            "Alfter / Alanus Hochschule"
+        ]
+    ]
+}
