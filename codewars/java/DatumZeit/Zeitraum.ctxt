@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Zeitraum
+comment0.text=\r\n\ Klasse\ Zeitraum.\ Verwaltet\ einen\ Zeitraum\ in\ Sekunden\ (24.800\ Tage\ oder\ 67\ Jahre)\r\n\ \r\n\ @author\ (Sascha\ Zapf)\ \r\n\ @version\ (1.0)\r\n
+comment1.params=
+comment1.target=Zeitraum()
+comment1.text=\r\n\ Standardkonstruktor,\ initialsierung\ mit\ 0\r\n
+comment2.params=secs
+comment2.target=Zeitraum(int)
+comment2.text=\r\n\ Konstruktor\ mit\ Sekunden.\r\n\ \r\n\ @param\ \ secs\ \ \ sekunden\ als\ init\r\n
+comment3.params=zrString
+comment3.target=Zeitraum(java.lang.String)
+comment3.text=\r\n\ Konstruktor\ mit\ Zeitraum-String\ in\ der\ Form\ "[tage]\ [stunden]\:[minuten]\:[sekunden]".\r\n\ \r\n\ @param\ \ \ zrString\ \ \ \ Zeichenkette\ mit\ speziellem\ Format\r\n
+comment4.params=zrString
+comment4.target=int\ decodezrString(java.lang.String)
+comment5.params=secs
+comment5.target=java.lang.String\ encodesrString(int)
+comment6.params=secs
+comment6.target=void\ add(int)
+comment7.params=zrString
+comment7.target=void\ add(java.lang.String)
+comment8.params=
+comment8.target=Zeitraum\ clone()
+comment9.params=other
+comment9.target=int\ compareTo(Zeitraum)
+numComments=10

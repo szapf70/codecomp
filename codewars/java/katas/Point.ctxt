@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Point
+comment0.text=\r\n\ 2\ Dimensionaler\ Punkt\ im\ Kartesichen\ Raum.\r\n\ \r\n\ @author\ Sascha\ Zapf\ \r\n\ @version\ 06.01.2025\r\n
+comment1.params=x_pos\ y_pos
+comment1.target=Point(int,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Point\r\n
+comment2.params=x_offs\ y_offs
+comment2.target=void\ move(int,\ int)
+comment2.text=\r\n\ Move\ verschiebt\ den\ Punkt\ um\ die\ beiden\ \u00FCbergebenen\ Offsets.\r\n\ \r\n\ @param\ \ x_offs\ \ \ Offsetwert\ f\u00FCr\ die\ X-Koordinate.\r\n\ @param\ \ y_offs\ \ \ Offsetwert\ f\u00FCr\ die\ Y-Koordinate.\r\n
+comment3.params=
+comment3.target=java.lang.String\ to_String()
+numComments=4
