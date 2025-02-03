@@ -1,0 +1,50 @@
+{
+	"features": [
+		{
+			"properties": {
+				"Haltestellenbereich": "1",
+				"Haltestellenname": "Heumarkt",
+				"kurzname": "HMG",
+				"VRSNummer": "11110",
+				"Linien": "1 5 7 9 106 132 133",
+				"Betriebsbereich": "BUS STRAB",
+				"Lageplan": "https://www.kvb.koeln/haltestellen/download/lageplan/HMG_Lplan_Heumarkt.pdf",
+				"Umgebungsplan": "https://www.kvb.koeln/haltestellen/download/umgebungsplan/HMG_Heumarkt.pdf"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "2",
+				"Haltestellenname": "Neumarkt",
+				"kurzname": "NEU",
+				"VRSNummer": "11111",
+				"Linien": "1 3 4 7 9 16 18 136 146",
+				"Betriebsbereich": "BUS STRAB",
+				"Lageplan": "https://www.kvb.koeln/haltestellen/download/lageplan/NEU_Lplan_Neumarkt.pdf",
+				"Umgebungsplan": "https://www.kvb.koeln/haltestellen/download/umgebungsplan/NEU_Neumarkt.pdf"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "3",
+				"Haltestellenname": "Poststr.",
+				"kurzname": "PSS",
+				"VRSNummer": "11112",
+				"Linien": "3 4 16 18",
+				"Betriebsbereich": "BUS STRAB",
+				"Lageplan": "https://www.kvb.koeln/haltestellen/download/lageplan/PSS_Lplan_Post_Str.pdf",
+				"Umgebungsplan": "https://www.kvb.koeln/haltestellen/download/umgebungsplan/PSS_Poststr.pdf"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "4",
+				"Haltestellenname": "Mauritiuskirche",
+				"kurzname": "MAK",
+				"VRSNummer": "11113",
+				"Linien": "9",
+				"Betriebsbereich": "BUS STRAB"
+			}
+		}
+	]
+}	

@@ -1,0 +1,27 @@
+# Beispiel-Dictionary
+data = {
+    'A': [1, 2, 3],
+    'B': [2, 3, 4],
+    'C': [3, 4, 5],
+    'D': [1, 5, 6]
+}
+
+def find_keys_with_most_common_values(data):
+    keys = list(data.keys())
+    max_common_values = 0
+    best_pair = None
+    
+    # Vergleiche alle möglichen Paare von Schlüsseln
+    for i in range(len(keys)):
+        for j in range(i + 1, len(keys)):
+            key1, key2 = keys[i], keys[j]
+            # Finde die gemeinsamen Werte
+            common_values = set(data[key1]).intersection(set(data[key2]))
+            if len(common_values) > max_common_values:
+                max_common_values = len(common_values)
+                best_pair = (key1, key2)
+    
+    return best_pair, max_common_values
+
+pair, common_values_count = find_keys_with_most_common_values(data)
+print(f"Die Schlüssel mit den meisten gemeinsamen Werten sind: {pair} mit {common_values_count} gemeinsamen Werten.")

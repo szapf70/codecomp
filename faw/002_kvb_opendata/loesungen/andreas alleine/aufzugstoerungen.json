@@ -1,0 +1,89 @@
+{
+	"features": [
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00526243480452,
+					50.9615552394524
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-01",
+				"Bezeichnung": "Mittelbahnsteig, Ausgang Frankfurter Straße",
+				"Haltestellenbereich": "570",
+				"Info": null,
+				"timestamp": "2024-12-08T05:20:52"
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9988415405293,
+					50.9374716746391
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-02",
+				"Bezeichnung": "Fahrtrichtung Kalk Kapelle",
+				"Haltestellenbereich": "512",
+				"Info": null,
+				"timestamp": "2024-12-08T05:20:52"
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95781192779762,
+					50.9417834179503
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-01",
+				"Bezeichnung": "Fahrtrichtung Breslauer Platz",
+				"Haltestellenbereich": "752",
+				"Info": null,
+				"timestamp": "2024-12-08T05:20:52"
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95383373234958,
+					50.9643271798151
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-01",
+				"Bezeichnung": "Fahrtrichtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "304",
+				"Info": null,
+				"timestamp": "2024-12-08T05:20:52"
+			}
+		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02109021652441,
+					50.932868070954
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "093-01",
+				"Bezeichnung": "Fahrtrichtung Sülz",
+				"Haltestellenbereich": "521",
+				"Info": null,
+				"timestamp": "2024-12-08T05:20:52"
+			}
+		}
+	]
+}

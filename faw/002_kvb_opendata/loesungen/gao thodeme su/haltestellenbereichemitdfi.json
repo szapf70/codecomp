@@ -1,0 +1,1579 @@
+{
+	"features": [
+		{
+			"properties": {
+				"Haltestellenbereich": "1"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "2"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "3"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "4"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "6"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "7"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "9"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "11"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "15"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "17"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "18"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "19"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "20"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "21"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "22"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "23"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "24"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "25"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "26"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "27"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "28"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "29"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "30"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "32"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "34"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "35"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "36"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "39"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "40"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "42"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "44"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "45"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "46"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "47"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "49"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "52"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "53"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "54"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "56"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "57"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "64"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "65"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "68"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "69"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "70"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "72"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "76"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "78"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "80"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "81"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "83"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "84"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "85"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "95"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "96"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "97"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "98"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "106"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "109"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "116"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "124"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "129"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "140"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "142"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "143"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "144"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "145"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "146"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "148"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "149"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "150"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "151"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "152"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "153"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "154"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "155"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "160"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "163"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "164"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "165"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "166"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "167"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "169"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "170"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "171"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "172"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "173"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "174"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "175"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "178"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "179"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "180"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "181"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "186"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "187"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "195"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "197"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "200"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "209"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "212"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "218"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "228"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "234"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "235"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "236"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "237"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "242"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "245"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "246"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "247"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "249"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "251"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "254"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "256"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "258"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "261"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "268"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "270"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "272"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "282"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "283"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "286"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "287"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "289"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "291"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "296"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "298"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "301"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "303"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "304"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "305"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "306"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "311"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "313"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "314"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "315"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "316"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "317"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "319"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "326"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "329"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "330"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "331"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "332"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "336"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "342"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "345"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "347"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "349"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "355"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "356"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "358"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "362"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "363"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "364"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "367"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "368"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "369"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "370"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "372"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "373"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "382"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "384"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "385"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "386"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "392"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "394"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "395"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "400"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "401"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "403"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "417"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "420"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "427"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "433"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "438"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "439"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "442"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "444"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "446"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "449"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "450"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "451"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "452"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "456"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "458"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "459"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "463"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "464"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "465"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "466"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "467"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "468"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "469"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "470"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "471"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "477"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "486"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "488"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "489"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "496"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "510"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "511"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "512"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "513"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "514"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "515"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "516"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "517"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "518"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "519"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "520"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "521"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "522"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "523"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "526"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "528"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "530"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "534"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "535"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "537"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "538"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "539"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "540"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "543"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "544"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "546"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "547"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "553"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "554"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "555"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "556"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "557"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "562"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "563"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "565"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "566"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "567"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "568"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "569"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "570"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "572"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "573"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "578"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "579"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "580"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "583"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "584"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "585"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "588"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "589"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "594"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "595"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "596"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "606"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "607"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "608"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "609"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "613"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "630"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "631"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "632"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "633"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "634"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "635"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "636"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "637"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "638"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "640"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "641"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "642"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "645"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "647"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "649"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "650"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "653"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "654"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "655"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "663"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "665"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "666"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "667"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "668"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "670"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "671"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "702"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "709"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "710"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "711"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "712"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "713"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "750"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "756"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "779"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "800"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "811"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "812"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "813"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "816"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "818"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "822"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "824"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "830"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "835"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "846"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "866"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "873"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "880"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "881"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "883"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "886"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "897"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "903"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "940"
+			}
+		},
+		{
+			"properties": {
+				"Haltestellenbereich": "976"
+			}
+		}
+	]
+}
