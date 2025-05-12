@@ -1,21 +1,87 @@
 # https://www.codewars.com/kata/537e18b6147aa838f600001b/train/python
 # Text align justify
 
+class aline():
+    def __init__(self,max_len):
+        self.words = []
+        self.acc_words_len = 0
+        self.max_len = max_len
+
+    def can_recieve(self, word):
+        return (self.acc_words_len + len(self.words) + len(word)) <= self.max_len
+    
+    def recieve(self,word):
+        self.words.append(word)
+        self.acc_words_len += len(word)
+        return
+    
+    def publish(self):
+        spaces = self.max_len - self.acc_words_len
+        print(self.words, spaces)
+
+        bspace = spaces//(len(self.words)-1)
+        rest = spaces%(len(self.words)-1)
+        p_str = ""
+        for w in self.words[:-1]:
+            p_str += w
+            p_str += (" " * bspace)
+            if rest:
+                p_str += " "
+                rest -= 1
+        p_str += self.words[-1]
+        return p_str
+
+    def publish_last(self):
+        return " ".join(self.words)
+
+
+
 def justify(text, width):
     if text == "": return ""
     words = text.split()
-    
-    res = []
-    buf = []
-    
+    lines = []
+
     while words:
-        if len(buf) > 0:
-            buf.append(" ")
-            
-    pass # your code here
+        act_line = aline(width)
+        while words and act_line.can_recieve(words[0]):
+            act_line.recieve(words.pop(0))
+        lines.append(act_line)    
 
+    res = []
 
+    for l in lines[:-1]:
+        res.append(l.publish())
+    res.append(lines[-1].publish_last())
+    return "\n".join(res)
 
-t = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like."
+text = """\
+Lorem  ipsum  dolor  sit amet,
+consectetur  adipiscing  elit.
+Vestibulum    sagittis   dolor
+mauris,  at  elementum  ligula
+tempor  eget.  In quis rhoncus
+nunc,  at  aliquet orci. Fusce
+at   dolor   sit   amet  felis
+suscipit   tristique.   Nam  a
+imperdiet   tellus.  Nulla  eu
+vestibulum    urna.    Vivamus
+tincidunt  suscipit  enim, nec
+ultrices   nisi  volutpat  ac.
+Maecenas   sit   amet  lacinia
+arcu,  non dictum justo. Donec
+sed  quam  vel  risus faucibus
+euismod.  Suspendisse  rhoncus
+rhoncus  felis  at  fermentum.
+Donec lorem magna, ultricies a
+nunc    sit    amet,   blandit
+fringilla  nunc. In vestibulum
+velit    ac    felis   rhoncus
+pellentesque. Mauris at tellus
+enim.  Aliquam eleifend tempus
+dapibus. Pellentesque commodo,
+nisi    sit   amet   hendrerit
+fringilla,   ante  odio  porta
+lacus,   ut   elementum  justo
+nulla et dolor."""
 
-print(justify(t))
+print(justify(text,13))
