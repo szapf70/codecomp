@@ -16,9 +16,10 @@ class aline():
         return
     
     def publish(self):
+        if len(self.words) == 1:
+            return self.words[0]
+        
         spaces = self.max_len - self.acc_words_len
-        print(self.words, spaces)
-
         bspace = spaces//(len(self.words)-1)
         rest = spaces%(len(self.words)-1)
         p_str = ""

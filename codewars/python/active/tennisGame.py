@@ -2,46 +2,34 @@
 # Give the status of the tennis game
 
 def get_status(wins):
-    game = {
-                'Bob' : { 'state' : "0",
-                          'opp' : game['Anna'])},
-                'Anna' : { 'state' : "0",
-                          'opp' : game.get('Bob')}
-    }
-    status = "Bob 0, Anna 0"
-    winner = None
-    
-    for w in wins:
-        if winner:
-            break
-        match game[w]['state']:
-            case "0":
-                game[w]['state'] = "15"        
-            case "15":
-                game[w]['state'] = "30"        
-            case "30":
-                game[w]['state'] = "40"  
-            case "40":
-                match game[w]['opp']['state']:
-                    case "0":
-                        winner = w
-                    case "15":
-                        winner = w
-                    case "30":
-                        winner = w
-                    case "40":
-                        game[w]['state'] = "DEU"
-                        game[w]['opp']['state'] = "DEU"
-            case "DEU":
-                match game[w]['opp']['state']:
-                    case "DEU":
-                        game[w]['state'] = "ADV"
-                    case "ADV":
-                        game[w]['opp']['state'] = "DEU"                
-            case "ADV":
-                winner = w              
-    print(game)    
+    p = {'Bob' : 0, 'Anna' : 0}
+    act = (0,0)
+    w = ""
 
+    states = {(1,0) : "Bob 15, Anna 0",
+              (0,1) : "Bob 0, Anna 15",
+              (1,1) : "15a",
+
+              (2,0) : "Bob 30, Anna 0",
+              (0,2) : "Bob 0, Anna 30",
+              (2,2) : "30a",
+              (1,2) : "Bob 15, Anna 30",
+              (2,1) : "Bob 30, Anna 15",
+
+              (3,0) : "Bob 40, Anna 0",
+              (0,3) : "Bob 0, Anna 40",
+              (3,3) : "DEUCE",
+              (1,3) : "Bob 15, Anna 40",
+              (2,3) : "Bob 30, Anna 40",
+              (3,1) : "Bob 40, Anna 15",
+              (3,2) : "Bob 40, Anna 30",  
+
+              (4,3) : "Bob ADVANTAGE", 
+              (3,4) : "Anna ADVANTAGE",
+             
+              (5,3) : "Bob WINS",
+              (3,)  
+             }
 
 
 
