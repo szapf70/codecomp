@@ -19,36 +19,12 @@ class Array(object):
         return [min(self.arr),max(self.arr)]
         
     def largest_increas_subseq(self):
-        top = {"l" : 0, "s" : 0, "e" : 0}
-        act = {"l" : 0, "s" : 0, "e" : 0}
-        run = False
 
-        i = 2
-        while i <= len(self.arr):
-            if i == len(self.arr):
-                if run:
-                    if act['l'] > top['l']:
-                        top = act
-                break
-            if self.arr[i-2] < self.arr[i-1] < self.arr[i]:
-                if run:
-                    act['l'] += 1
-                else:
-                    act['l'] = 3
-                    act['s'] = i -2
-                    run = True
-            else:
-                if run:
-                    act['e'] = i - 1
-                    run = False
-                    if act['l'] > top['l']:
-                        top = act  
-                        act = {'l' : 0, 's' : 0,'e' :0}     
 
-            i += 1
-        if top['l'] == 0:
-            return "No increasing subsequence"
-        return self.arr[top['s']:top['e']+1]
+
+
+
+
 
 
     def largest_decreas_subseq(self):
@@ -94,11 +70,14 @@ class Array(object):
         ('6.decreas subseq', self.largest_decreas_subseq())])
         return str(d)
 
-arr = [224, 142, 429, 487, 362, 286, 767, 773, 717, 636, 70, 567, 789, 764, 537, 1203, 167, 695, 366, 788, 987, 829, 713, 188, 143, 396, 1159, 1146, 1133, 729, 417, 868, 33, 582, 684, 729, 916, 412, 700, 753, 85, 1020, 874, 1121, 522, 1222, 1142, 1123, 1084, 976, 944, 876, 789, 677, 631, 561]    
+
+
+arr = [345, 288, 250, 215,187, 156, 32, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]
+#arr = [345, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]    
 #arr = [345, 288, 250, 215,187, 156, 32, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]
 c = Array(arr)
 print(c)
-
+print("Should equal --->", "('1.number of elements', 19), ('2.number of different values', 17), ('3.first and last terms', [345, 34]), ('4.range of values', [12, 345]), ('5.increas subseq', [12, 45, 47, 49, 55, 90, 104]), ('6.decreas subseq', [345, 288, 250, 215, 187, 156, 32])]) )")
 """
 "OrderedDict([('1.number of elements', 56), 
 ('2.number of different values', 54), 
