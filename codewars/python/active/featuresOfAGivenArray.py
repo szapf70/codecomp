@@ -17,49 +17,46 @@ class Array(object):
         
     def range_(self):
         return [min(self.arr),max(self.arr)]
-        
+
+    def is_increasing(self,s,e):
+        for i in range(s,e):
+            if self.arr[i] >= self.arr[i+1]:
+                return False   
+        return True
+
+    def is_decreasing(self,s,e):
+        for i in range(s,e):
+            if self.arr[i] <= self.arr[i+1]:
+                return False   
+        return True
+
     def largest_increas_subseq(self):
-
-
-
-
-
-
-
+        m_len = 2
+        m_slice = None
+        
+        for s_start in range(len(self.arr)-3):
+            for s_end in range(len(self.arr)-1,s_start+1,-1):
+                if self.is_increasing(s_start,s_end):
+                    if len(self.arr[s_start:s_end+1]) > m_len:
+                        m_len = len(self.arr[s_start:s_end+1])
+                        m_slice = self.arr[s_start:s_end+1]
+        if m_slice == None:
+            return "No increasing subsequence"
+        return m_slice
 
     def largest_decreas_subseq(self):
-        top = {"l" : 0, "s" : 0, "e" : 0}
-        act = {"l" : 0, "s" : 0, "e" : 0}
-        run = False
-
-        i = 2
-        while i <= len(self.arr):
-            print(self.arr[act['s']:act['e']+1],run)
-            if i == len(self.arr):
-                if run:
-                    if act['l'] > top['l']:
-                        top = act
-                break        
-            if self.arr[i-2] > self.arr[i-1] > self.arr[i]:
-                if run:
-                    act['l'] += 1
-                else:
-                    act['l'] = 3
-                    act['s'] = i -2
-                    run = True
-            else:
-                if run:
-                    act['e'] = i - 1
-                    run = False
-                    if act['l'] > top['l']:
-                        top = act  
-                        act = {'l' : 0, 's' : 0,'e' :0}     
-
-            i += 1
-
-        if top['l'] == 0:
+        m_len = 2
+        m_slice = None
+        
+        for s_start in range(len(self.arr)-3):
+            for s_end in range(len(self.arr)-1,s_start+1,-1):
+                if self.is_decreasing(s_start,s_end):
+                    if len(self.arr[s_start:s_end+1]) > m_len:
+                        m_len = len(self.arr[s_start:s_end+1])
+                        m_slice = self.arr[s_start:s_end+1]
+        if m_slice == None:
             return "No decreasing subsequence"
-        return self.arr[top['s']:top['e']+1]
+        return m_slice
         
     def __str__(self):
         d = OrderedDict([('1.number of elements', self.num_elements()), 
@@ -71,40 +68,7 @@ class Array(object):
         return str(d)
 
 
-
-arr = [345, 288, 250, 215,187, 156, 32, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]
-#arr = [345, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]    
-#arr = [345, 288, 250, 215,187, 156, 32, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]
+arr = [234, 230, 229, 225, 318, 317, 312, 612, 620, 613, 30, 40, 10]
 c = Array(arr)
 print(c)
-print("Should equal --->", "('1.number of elements', 19), ('2.number of different values', 17), ('3.first and last terms', [345, 34]), ('4.range of values', [12, 345]), ('5.increas subseq', [12, 45, 47, 49, 55, 90, 104]), ('6.decreas subseq', [345, 288, 250, 215, 187, 156, 32])]) )")
-"""
-"OrderedDict([('1.number of elements', 56), 
-('2.number of different values', 54), 
-('3.first and last terms', [224, 561]), 
-('4.range of values', [33, 1222]), 
-('5.increas subseq', [33, 582, 684, 729, 916]), 
-('6.decreas subseq', [987, 829, 713, 188, 143])])" should equal 
-
-"OrderedDict([('1.number of elements', 56), 
-('2.number of different values', 54), 
-('3.first and last terms', [224, 561]), 
-('4.range of values', [33, 1222]), 
-('5.increas subseq', [33, 582, 684, 729, 916]), 
-('6.decreas subseq', [1222, 1142, 1123, 1084, 976, 944, 876, 789, 677, 631, 561])])"
-
-
-
-arr = [345, 32, 45, 12, 45, 47, 49, 55, 90, 104, 20, 30, 34]
-c = Array(arr)
-c.num_elements() == 13
-c.num_values() == 12
-c.start_end() == [345, 34]
-c.range_() == [12, 345]
-c.largest_increas_subseq() == [12, 45, 47, 49, 55, 90, 104]
-c.largest_decreas_subseq() == "No decreasing subsequence" # [345, 32], [45,12] length less than 3
-c.__str__() == OrderedDict([('1.number of elements', 13), ('2.number of different values', 12), ('3.first and last terms', [345, 34]), ('4.range of values', [12, 345]), ('5.increas subseq', [12, 45, 47, 49, 55, 90, 104]), ('6.decreas subseq', 'No decreasing subsequence')])
-
-('5.increas subseq', [12, 45, 47, 49, 55, 90, 104]), ('6.decreas subseq', [345, 288, 250, 215, 187, 156, 32])])
-
-"""
+print("Should equal --->", "OrderedDict([('1.number of elements', 13), ('2.number of different values', 13), ('3.first and last terms', [234, 10]), ('4.range of values', [10, 620]), ('5.increas subseq', [312, 612, 620]), ('6.decreas subseq', [234, 230, 229, 225])])")

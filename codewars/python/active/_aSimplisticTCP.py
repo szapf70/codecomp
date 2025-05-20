@@ -1,8 +1,6 @@
 # https://www.codewars.com/kata/54acc128329e634e9a000362/train/python
 # A Simplistic TCP Finite State Machine (FSM)
 
-import pprint
-
 def traverse_TCP_states(events):
     state = "CLOSED"  # initial state, always
     m = {
